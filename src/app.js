@@ -197,7 +197,7 @@ const butt = D.players.find(p => p.n === "A. Büttner");
 $("#buttner-big").innerHTML = `${ord(butt ? butt.rxt : 32)}<i>of 355 on ball progression</i>`;
 
 /* fixtures */
-$("#fixtures").innerHTML = D.fixtures.map(f => `<div><div class="d">${f.date} · ${f.ha === "H" ? "home" : "away"} · ${f.shape}</div><div class="o">${f.ha === "H" ? "Vitesse – " + f.opp : f.opp + " – Vitesse"}</div><div class="s">${f.ha === "H" ? f.gf + "–" + f.ga : f.ga + "–" + f.gf}</div><div class="x">xG <b>${f.xg.toFixed(2)}</b> – ${f.xga.toFixed(2)}</div><div class="n">${f.note}</div></div>`).join("");
+$("#fixtures").innerHTML = D.fixtures.map(f => `<div><div class="d">${f.date} · ${f.ha === "H" ? "home" : "away"} · ${f.shape}</div><div class="o">${f.ha === "H" ? "Vitesse – " + f.opp : f.opp + " – Vitesse"}</div><div class="s">${f.ha === "H" ? f.gf + "–" + f.ga : f.ga + "–" + f.gf}</div><div class="x">xG ${f.ha === "H" ? `<b>${f.xg.toFixed(2)}</b> – ${f.xga.toFixed(2)}` : `${f.xga.toFixed(2)} – <b>${f.xg.toFixed(2)}</b>`}</div><div class="n">${f.note}</div></div>`).join("");
 
 /* shift table */
 $("#t-shift").innerHTML = `<thead><tr><th>per match</th><th class="r">2025/26</th><th class="r">2026/27</th><th></th></tr></thead><tbody>` +
