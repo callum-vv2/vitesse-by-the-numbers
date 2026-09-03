@@ -159,7 +159,6 @@ D = {
     "methods": [
         {"name": "Independent xG model", "note": "XGBoost on Opta event data · 38 matches", "xgd": "+2.8", "xgdRank": "10th", "xpts": "53.7", "resid": "+2.3", "residRank": "9th"},
         {"name": "Licensed xG (Twelve · Wyscout)", "note": "the club's own season report · 38 matches", "xgd": "−0.8", "xgdRank": "10th", "xpts": "52.1", "resid": "+3.8", "residRank": "6th"},
-        {"name": "Bookmaker odds", "note": "overround stripped · 26 of 38 matches", "xgd": "—", "xgdRank": "—", "xpts": "31.8 of 33", "resid": "+1.2", "residRank": "9th"},
     ],
     # VITESSE-ON-PITCH §2
     "seasons": [
