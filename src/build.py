@@ -146,7 +146,7 @@ scouting = []
 for key in ["wouters", "dahbo", "decarvalho"]:
     n = SC_NOTES[key]; facets, pool = parse_earpiece(n["file"])
     scouting.append({"key": key, "name": n["name"], "role": n["role"], "sample": n["sample"], "pool": pool, "poolLabel": n["poolLabel"],
-                     "facets": facets, "shows": n["shows"], "cannot": n["cannot"], "prose": n["prose"]})
+                     "facets": facets, "shows": n["shows"], "cannot": n["cannot"], "prose": n["prose"], "fit": n["fit"]})
 
 # ---- 5. hand-carried figures (source noted per block) --------------------------
 D = {
