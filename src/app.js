@@ -87,49 +87,6 @@ $("#t-methods").innerHTML = `<thead><tr><th>Method</th><th class="r">xG differen
 /* ---------- SVG helpers ---------- */
 const svg = (w, h, inner, cls = "") => `<svg viewBox="0 0 ${w} ${h}" class="${cls}" role="img">${inner}</svg>`;
 
-/* six seasons */
-(function () {
-  const W = 500, H = 250, L = 44, R = 12, T = 30, B = 46, pw = W - L - R, ph = H - T - B;
-  const s = D.seasons, lo = -1, hi = 0.3, y = v => T + (hi - v) / (hi - lo) * ph, bw = pw / s.length;
-  let g = `<g class="grid">${[0.2, 0, -0.2, -0.4, -0.6, -0.8].map(v => `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/>`).join("")}</g>`;
-  g += `<g class="ax">${[0.2, 0, -0.2, -0.4, -0.6, -0.8].map(v => `<text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${sgn(v, 1)}</text>`).join("")}</g>`;
-  g += `<line x1="${L}" x2="${W - R}" y1="${y(0)}" y2="${y(0)}" stroke="${INK3}" stroke-width="1"/>`;
-  // division band
-  const kkd0 = L + 4 * bw;
-  g += `<rect x="${kkd0}" y="${T - 18}" width="${2 * bw}" height="${ph + 18}" fill="#eeedeb" opacity=".55"/>`;
-  g += `<text x="${L + 2 * bw}" y="${T - 6}" text-anchor="middle" font-size="10.5" fill="${INK3}" letter-spacing=".08em">EREDIVISIE</text><text x="${kkd0 + bw}" y="${T - 6}" text-anchor="middle" font-size="10.5" fill="${INK3}" letter-spacing=".08em">EERSTE DIVISIE</text>`;
-  s.forEach((d, i) => {
-    const x = L + i * bw + bw * 0.22, w = bw * 0.56, y0 = y(0), y1 = y(d.xgd);
-    const top = Math.min(y0, y1), h = Math.abs(y0 - y1);
-    g += `<rect x="${x}" y="${top}" width="${w}" height="${Math.max(h, 1.5)}" fill="${d.xgd >= 0 ? VIT : WARM}" rx="2" data-tip="<b>${d.s} · ${d.div}</b><span class='t'>xGD ${sgn(d.xgd, 3)} per match · ranked ${ord(d.rank)} of ${d.of}</span><span class='t'>Official ${ord(d.official)}${d.deduct ? " after a " + d.deduct + "-point deduction" : ""}</span>"/>`;
-    g += `<text x="${x + w / 2}" y="${d.xgd >= 0 ? y1 - 6 : y1 + 13}" text-anchor="middle" font-size="11.5" font-weight="600" fill="${d.xgd >= 0 ? VIT : WARM}">${ord(d.rank)}</text>`;
-    g += `<text x="${x + w / 2}" y="${H - B + 16}" text-anchor="middle" font-size="11" fill="${INK3}">${d.s}</text>`;
-    g += `<text x="${x + w / 2}" y="${H - B + 30}" text-anchor="middle" font-size="10.5" fill="${INK3}">${d.deduct ? "−" + d.deduct + " pts" : ""}</text>`;
-  });
-  $("#c-seasons").innerHTML = svg(W, H, g);
-})();
-
-/* residuals: two small multiples */
-(function () {
-  const W = 500, H = 250, L = 44, R = 12, T = 30, B = 40, pw = (W - L - R - 24) / 2, ph = H - T - B;
-  const lo = -0.5, hi = 0.2, y = v => T + (hi - v) / (hi - lo) * ph;
-  const panel = (x0, key, title) => {
-    const bw = pw / 4; let g = `<text x="${x0}" y="${T - 10}" font-size="12" font-weight="500" fill="#313131">${title}</text>`;
-    g += `<g class="grid">${[0.1, 0, -0.1, -0.2, -0.3, -0.4].map(v => `<line x1="${x0}" x2="${x0 + pw}" y1="${y(v)}" y2="${y(v)}"/>`).join("")}</g>`;
-    g += `<line x1="${x0}" x2="${x0 + pw}" y1="${y(0)}" y2="${y(0)}" stroke="${INK3}"/>`;
-    D.residuals.forEach((d, i) => {
-      const v = d[key], x = x0 + i * bw + bw * 0.2, w = bw * 0.6, y0 = y(0), y1 = y(v);
-      g += `<rect x="${x}" y="${Math.min(y0, y1)}" width="${w}" height="${Math.max(Math.abs(y0 - y1), 1.5)}" fill="${v >= 0 ? VIT : WARM}" rx="2" data-tip="<b>${d.s}</b><span class='t'>${title}: ${sgn(v, 3)} per match</span>"/>`;
-      g += `<text x="${x + w / 2}" y="${v >= 0 ? y1 - 5 : y1 + 12}" text-anchor="middle" font-size="10.5" fill="${v >= 0 ? VIT : WARM}">${sgn(v, 2)}</text>`;
-      g += `<text x="${x + w / 2}" y="${H - B + 16}" text-anchor="middle" font-size="10.5" fill="${INK3}">${d.s}</text>`;
-    });
-    return g;
-  };
-  let g = `<g class="ax">${[0.1, 0, -0.1, -0.2, -0.3, -0.4].map(v => `<text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${sgn(v, 1)}</text>`).join("")}</g>`;
-  g += panel(L, "fin", "Finishing (goals − xG)") + panel(L + pw + 24, "prev", "Prevention (xGA − conceded)");
-  $("#c-resid").innerHTML = svg(W, H, g);
-})();
-
 /* phases */
 $("#c-phases").innerHTML = D.phases.map(p => {
   const pct = (p.rank - 1) / 19 * 100, good = p.rank <= 8;

@@ -161,21 +161,6 @@ D = {
         {"name": "Independent xG model", "note": "XGBoost on Opta event data · 38 matches", "xgd": "+2.8", "xgdRank": "10th", "xpts": "53.7", "resid": "+2.3", "residRank": "9th"},
         {"name": "Licensed xG (Twelve · Wyscout)", "note": "Twelve season report on Vitesse · 38 matches", "xgd": "−0.8", "xgdRank": "10th", "xpts": "52.1", "resid": "+3.8", "residRank": "6th"},
     ],
-    # VITESSE-ON-PITCH §2
-    "seasons": [
-        {"s": "2020-21", "div": "Eredivisie", "official": 4, "deduct": 0, "xgd": 0.059, "rank": 6, "of": 18},
-        {"s": "2021-22", "div": "Eredivisie", "official": 7, "deduct": 0, "xgd": -0.021, "rank": 7, "of": 18},
-        {"s": "2022-23", "div": "Eredivisie", "official": 10, "deduct": 0, "xgd": 0.087, "rank": 7, "of": 18},
-        {"s": "2023-24", "div": "Eredivisie", "official": 18, "deduct": 18, "xgd": -0.874, "rank": 16, "of": 18},
-        {"s": "2024-25", "div": "Eerste Divisie", "official": 20, "deduct": 27, "xgd": -0.218, "rank": 15, "of": 20},
-        {"s": "2025-26", "div": "Eerste Divisie", "official": 15, "deduct": 12, "xgd": 0.074, "rank": 10, "of": 20},
-    ],
-    # per-match residuals: Eerste Divisie seasons recomputed from q5_all_stand.csv; Eredivisie
-    # seasons carried from the dossier's chart 02-four-seasons.png (no ERE rows in the CSV)
-    "residuals": [{"s": "2022-23", "fin": -0.087, "prev": -0.147}, {"s": "2023-24", "fin": -0.446, "prev": -0.099}] + [
-        {"s": r["season"], "fin": round((int(r["GF"]) - float(r["xGF"])) / int(r["P"]), 3),
-         "prev": round((float(r["xGA"]) - int(r["GA"])) / int(r["P"]), 3)}
-        for r in rows("q5_all_stand.csv") if r["Team"] == "Vitesse" and r["season"] in ("2024-25", "2025-26")],
     # Twelve season report p2 + per-metric pages
     "phases": [
         {"name": "Defence", "rank": 7, "why": "Opponents reach the final third slightly more often than average (14th) but get into the box less than against anyone: final-third-to-box 1st, box touches 3rd, shots faced 2nd."},
