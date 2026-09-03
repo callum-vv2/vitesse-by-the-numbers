@@ -1,0 +1,474 @@
+[
+ {
+  "tm_id": "477476",
+  "name": "Connor van den Berg",
+  "pos": "Goalkeeper",
+  "dob": "18/03/2001",
+  "age": 25,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,87m",
+  "foot": "right",
+  "joined": "11/09/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2029",
+  "val": "€300k"
+ },
+ {
+  "tm_id": "596103",
+  "name": "Maximilian Brüll",
+  "pos": "Goalkeeper",
+  "dob": "26/08/2002",
+  "age": 24,
+  "nat": [
+   "Germany"
+  ],
+  "ht": "1,86m",
+  "foot": "right",
+  "joined": "11/09/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€125k"
+ },
+ {
+  "tm_id": "663961",
+  "name": "Tyrick Bodak",
+  "pos": "Goalkeeper",
+  "dob": "15/05/2002",
+  "age": 24,
+  "nat": [
+   "Curacao",
+   "Netherlands"
+  ],
+  "ht": "1,90m",
+  "foot": "right",
+  "joined": "04/08/2026",
+  "prev": "SC Telstar",
+  "fee": "free transfer",
+  "contract": "30/06/2027",
+  "val": "€25k"
+ },
+ {
+  "tm_id": "992165",
+  "name": "Jayden Siecker",
+  "pos": "Goalkeeper",
+  "dob": "30/08/2005",
+  "age": 21,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,87m",
+  "foot": "right",
+  "joined": "01/07/2025",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "-",
+  "val": "-"
+ },
+ {
+  "tm_id": "482383",
+  "name": "Valon Zumberi",
+  "pos": "Centre-Back",
+  "dob": "24/11/2002",
+  "age": 23,
+  "nat": [
+   "Kosovo",
+   "Germany"
+  ],
+  "ht": "1,88m",
+  "foot": "right",
+  "joined": "01/07/2025",
+  "prev": "Hamburger SV",
+  "fee": "free transfer",
+  "contract": "30/06/2027",
+  "val": "€350k"
+ },
+ {
+  "tm_id": "949959",
+  "name": "Omar Achouitar",
+  "pos": "Centre-Back",
+  "dob": "13/05/2005",
+  "age": 21,
+  "nat": [
+   "Morocco",
+   "Netherlands"
+  ],
+  "ht": "1,85m",
+  "foot": "left",
+  "joined": "01/09/2025",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "30/06/2028",
+  "val": "€300k"
+ },
+ {
+  "tm_id": "451297",
+  "name": "Luuk Wouters",
+  "pos": "Centre-Back",
+  "dob": "08/06/1999",
+  "age": 27,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,84m",
+  "foot": "left",
+  "joined": "31/08/2026",
+  "prev": "RKC Waalwijk",
+  "fee": "free transfer",
+  "contract": "30/06/2028",
+  "val": "€300k"
+ },
+ {
+  "tm_id": "607141",
+  "name": "Marcus Steffen",
+  "pos": "Centre-Back",
+  "dob": "01/02/2003",
+  "age": 23,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,89m",
+  "foot": "right",
+  "joined": "01/07/2024",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "30/06/2028",
+  "val": "€300k"
+ },
+ {
+  "tm_id": "761283",
+  "name": "Xiamaro Thenu",
+  "pos": "Left-Back",
+  "dob": "22/10/2004",
+  "age": 21,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "-",
+  "foot": null,
+  "joined": "01/09/2025",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€175k"
+ },
+ {
+  "tm_id": "38003",
+  "name": "Alexander Büttner",
+  "pos": "Left-Back",
+  "dob": "11/02/1989",
+  "age": 37,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,75m",
+  "foot": "left",
+  "joined": "07/08/2024",
+  "prev": "De Graafschap Doetinchem",
+  "fee": "€15k",
+  "contract": "30/06/2028",
+  "val": "€100k"
+ },
+ {
+  "tm_id": "703775",
+  "name": "Chiel Olde Keizer",
+  "pos": "Left-Back",
+  "dob": "17/03/2003",
+  "age": 23,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,80m",
+  "foot": "left",
+  "joined": "29/01/2026",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€75k"
+ },
+ {
+  "tm_id": "508637",
+  "name": "Solomon Bonnah",
+  "pos": "Right-Back",
+  "dob": "19/08/2003",
+  "age": 23,
+  "nat": [
+   "Netherlands",
+   "Ghana"
+  ],
+  "ht": "1,65m",
+  "foot": "right",
+  "joined": "25/09/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€275k"
+ },
+ {
+  "tm_id": "451576",
+  "name": "Nathan Markelo",
+  "pos": "Right-Back",
+  "dob": "07/01/1999",
+  "age": 27,
+  "nat": [
+   "Curacao",
+   "Netherlands"
+  ],
+  "ht": "1,71m",
+  "foot": "right",
+  "joined": "11/09/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2029",
+  "val": "€250k"
+ },
+ {
+  "tm_id": "229792",
+  "name": "Marco Schikora",
+  "pos": "Defensive Midfield",
+  "dob": "20/09/1994",
+  "age": 31,
+  "nat": [
+   "Germany"
+  ],
+  "ht": "1,81m",
+  "foot": "both",
+  "joined": "11/09/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2028",
+  "val": "€300k"
+ },
+ {
+  "tm_id": "1107997",
+  "name": "Youssef Ouallil",
+  "pos": "Defensive Midfield",
+  "dob": "15/11/2007",
+  "age": 18,
+  "nat": [
+   "Netherlands",
+   "Morocco"
+  ],
+  "ht": "-",
+  "foot": null,
+  "joined": "03/09/2025",
+  "prev": "Vitesse Arnhem U19",
+  "fee": "-",
+  "contract": "30/06/2029",
+  "val": "€50k"
+ },
+ {
+  "tm_id": "775988",
+  "name": "Mathijs Marschalk",
+  "pos": "Central Midfield",
+  "dob": "22/01/2005",
+  "age": 21,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,77m",
+  "foot": "right",
+  "joined": "03/09/2025",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "30/06/2028",
+  "val": "€350k"
+ },
+ {
+  "tm_id": "1030527",
+  "name": "Koen te Veluwe",
+  "pos": "Central Midfield",
+  "dob": "11/05/2006",
+  "age": 20,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "-",
+  "foot": null,
+  "joined": "01/07/2026",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "-"
+ },
+ {
+  "tm_id": "983679",
+  "name": "Teun Bosch",
+  "pos": "Central Midfield",
+  "dob": "07/04/2006",
+  "age": 20,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,88m",
+  "foot": "left",
+  "joined": "01/07/2026",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "-"
+ },
+ {
+  "tm_id": "1065043",
+  "name": "Pontus Dahbo",
+  "pos": "Attacking Midfield",
+  "dob": "11/10/2005",
+  "age": 20,
+  "nat": [
+   "Sweden"
+  ],
+  "ht": "1,85m",
+  "foot": "left",
+  "joined": "13/08/2026",
+  "prev": "BK Häcken",
+  "fee": "?",
+  "contract": "30/06/2027",
+  "val": "€2.00m"
+ },
+ {
+  "tm_id": "701756",
+  "name": "Ricardo-Felipe Schwarz",
+  "pos": "Attacking Midfield",
+  "dob": "30/01/2004",
+  "age": 22,
+  "nat": [
+   "Germany",
+   "Brazil"
+  ],
+  "ht": "1,74m",
+  "foot": "right",
+  "joined": "01/07/2025",
+  "prev": "SV Werder Bremen II",
+  "fee": "free transfer",
+  "contract": "30/06/2027",
+  "val": "€250k"
+ },
+ {
+  "tm_id": "1042450",
+  "name": "Yuval Ranon",
+  "pos": "Attacking Midfield",
+  "dob": "11/02/2006",
+  "age": 20,
+  "nat": [
+   "Israel",
+   "Germany"
+  ],
+  "ht": "1,80m",
+  "foot": "both",
+  "joined": "11/09/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€150k"
+ },
+ {
+  "tm_id": "659353",
+  "name": "Filipe de Carvalho",
+  "pos": "Left Winger",
+  "dob": "01/12/2003",
+  "age": 22,
+  "nat": [
+   "Switzerland",
+   "Portugal"
+  ],
+  "ht": "1,76m",
+  "foot": "right",
+  "joined": "21/07/2026",
+  "prev": "FC Rapperswil-Jona",
+  "fee": "free transfer",
+  "contract": "30/06/2028",
+  "val": "€250k"
+ },
+ {
+  "tm_id": "574391",
+  "name": "Ayman Sellouf",
+  "pos": "Left Winger",
+  "dob": "25/08/2001",
+  "age": 25,
+  "nat": [
+   "Netherlands",
+   "Morocco"
+  ],
+  "ht": "1,77m",
+  "foot": "right",
+  "joined": "20/07/2026",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€125k"
+ },
+ {
+  "tm_id": "936572",
+  "name": "Nino Zonneveld",
+  "pos": "Right Winger",
+  "dob": "06/12/2005",
+  "age": 20,
+  "nat": [
+   "Netherlands"
+  ],
+  "ht": "1,83m",
+  "foot": null,
+  "joined": "01/07/2025",
+  "prev": "Vitesse Arnhem U21",
+  "fee": "-",
+  "contract": "30/06/2028",
+  "val": "€325k"
+ },
+ {
+  "tm_id": "430800",
+  "name": "Naoufal Bannis",
+  "pos": "Centre-Forward",
+  "dob": "11/03/2002",
+  "age": 24,
+  "nat": [
+   "Morocco",
+   "Netherlands"
+  ],
+  "ht": "1,84m",
+  "foot": "right",
+  "joined": "19/09/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€325k"
+ },
+ {
+  "tm_id": "824949",
+  "name": "João Pinto",
+  "pos": "Centre-Forward",
+  "dob": "31/05/2004",
+  "age": 22,
+  "nat": [
+   "Portugal",
+   "Guinea-Bissau"
+  ],
+  "ht": "1,80m",
+  "foot": "both",
+  "joined": "02/10/2025",
+  "prev": "Without Club",
+  "fee": "-",
+  "contract": "30/06/2027",
+  "val": "€275k"
+ },
+ {
+  "tm_id": "717076",
+  "name": "Eduard Probst",
+  "pos": "Centre-Forward",
+  "dob": "24/03/2001",
+  "age": 25,
+  "nat": [
+   "Germany",
+   "Russia"
+  ],
+  "ht": "1,84m",
+  "foot": "right",
+  "joined": "07/07/2026",
+  "prev": "SV Rödinghausen",
+  "fee": "free transfer",
+  "contract": "30/06/2028",
+  "val": "€200k"
+ }
+]

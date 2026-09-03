@@ -1,0 +1,202 @@
+SOURCE: https://earpiece.twelve.football/reports/93c8e9cb-e369-4f14-905f-28214fb45d38
+CAPTURED: 3 Sep 2026, via the user's logged-in Chrome session (page text, verbatim)
+REPORT TYPE: Twelve Earpiece — Scouting Report
+=====================================================================
+
+Pontus Dahbo
+Winger
+Swedish Allsvenskan 2026
+Scouting Report
+
+--- Overview / Info ---
+Club: Häcken
+Nationalities: Sweden
+Birth date: 2005-10-11
+Strong foot: Left
+Agencies: Global Soccer Management
+Estimated value: Unknown
+
+Swedish Allsvenskan 26
+Minutes played: 220
+Matches: 9
+From start: 1
+Goals: 0
+Assists: 0
+Yellow cards: 1
+Red cards: 0
+
+Headline: 20-Year-Old Winger for Häcken Showcases Strong Involvement and Pressing, Yet Lacks Box Threat and Assists
+
+Pontus Dahbo is a 20-year-old winger for Häcken from Sweden. He has played 220 minutes this season in the 2026 Allsvenskan, appearing in 9 matches with just 1 start. While he has yet to score or provide an assist, his strengths include involvement, pressing, and dribbling. However, he has shown weaknesses in run quality, box threat, and providing for teammates.
+
+--- Positions played (share of minutes by position) ---
+MAIN: Winger — 175 mins
+ALL POSITIONS: 221 mins
+Right winger: 163 mins (74%)
+Striker: 39 mins (18%)
+Left winger: 12 mins (6%)
+Other (1): 7 mins
+
+--- Strengths (quality rank of 72 wingers) ---
+Involvement 2/72
+Pressing 3/72
+Dribbling 18/72
+
+--- Weaknesses ---
+Run Quality 59/72
+Box Threat 66/72
+Providing Teammates 72/72
+
+--- Table of content (section headlines) ---
+Summary • Promising young talent with energy but limited attacking prowess
+Involvement • Dynamic winger shines on the right, lacks aerial prowess
+Pressing • Standout performer with relentless defensive intensity
+Passing Quality • Effective on the right wing but lacks creativity
+Run Quality • Inconsistent in critical plays yet valuable on right flank
+Dribbling • Reliable on right wing but inconsistent chance creation
+Effectiveness • Defensively reliable but underwhelming as an offensive winger
+Providing Teammates • Inconsistent winger lacking impact outside the right flank
+Box Threat • Lacks goal threat and struggles to impact in the box
+Finishing • Misses scoring chances regularly, needs improved shooting accuracy
+
+--- Summary ---
+Promising young talent with energy but limited attacking prowess
+
+Pontus Dahbo is a young, dynamic winger who shows promise, especially in his involvement on the field with a strong focus on defensive actions. This season, he has excelled in pressing, showcasing outstanding defensive intensity which brings energy to his team. While he is good in dribbling and demonstrates admirable pressure resistance, he struggles significantly in the attacking phase, particularly in finishing and providing for teammates; he has low numbers for both shot conversion and key passes. His performance in terms of box threat is also lacking, with fewer receptions in dangerous areas. Despite his average capabilities at passing and run quality, Dahbo's overall ability to influence the game defensively is more prominent than his attacking contributions. Ultimately, while he brings impressive defensive qualities and work ethic, his offensive output needs considerable improvement to become a more complete winger.
+
+--- Overall performance radar (Swedish Allsvenskan 2026 | 220 minutes | compared to other Wingers | 03 Sep 2026) ---
+Axes: Involvement, Pressing, Passing Quality, Run Quality, Dribbling, Effectiveness, Providing Teammates, Box Threat, Finishing
+(No numeric axis values printed; the quality ranks below give each axis's position among 72 wingers.)
+
+--- Involvement — Quality rank 2 of 72 ---
+Headline: Dynamic winger shines on the right, lacks aerial prowess
+Prose: Pontus Dahbo is a dynamic winger who excels in both defensive engagements and contributing to goal-scoring opportunities. While he is actively involved in plays leading to chances and consistently touches the ball, his aerial ability remains a less developed aspect of his game.
+Aerials: 1.22 | 43 of 72
+Defensive actions won: 11.1 | 1 of 72
+Touches: 46.36 | 19 of 72
+xGBuildup: 0.52 | 6 of 72
+Zone map prose: "Dominant and skilled on the right wing" — Dahbo excelled in maintaining possession and contributing to build-up play on both the defensive and attacking right wing, highlighting his effectiveness in those areas. However, he struggled in more central and left-sided roles, performing below average, which may limit his overall offensive versatility.
+
+--- Pressing — Quality rank 3 of 72 ---
+Headline: Standout performer with relentless defensive intensity
+Prose: Pontus Dahbo's pressing efforts are exceptional, showcasing a relentless drive to recover the ball and a high level of intensity in his defensive work. His ability to read the game and intercept passes further amplifies his defensive contributions, making him a standout performer in the pressing game.
+Counterpressing actions: 0.89 | 40 of 72
+Defensive intensity: 10.66 | 1 of 72
+High recoveries: 1.33 | 4 of 72
+Interceptions: 3.55 | 10 of 72
+Zone map prose: "Defensive disruptor excelling on the right wing" — exceptional defensive intensity on the defensive right wing, clearly standing out among wingers in this area.
+
+--- Passing Quality — Quality rank 28 of 72 ---
+Headline: Effective on the right wing but lacks creativity
+Prose: Dahbo provides a solid option as a winger, especially when it comes to delivering passes into the final third, showing he can help in progressing the attack. However, he lacks the creativity and risk-taking necessary for creating chances, which limits his overall impact compared to his peers.
+Chance creating passes: 0.0 | 72 of 72
+Crosses (xT): 0.05 | 20 of 72
+Passes into final third (xT): 0.07 | 14 of 72
+Passes in final third (xT): 0.26 | 23 of 72
+Passes (xT): 0.4 | 24 of 72
+Zone map prose: "Excels in providing assists from the right wing" — outstanding passing in the attacking right wing and both right half-spaces; falters significantly in attacking central midfield or left wing positions.
+
+--- Run Quality — Quality rank 59 of 72 ---
+Headline: Inconsistent in critical plays yet valuable on right flank
+Prose: Pontus Dahbo's run quality falls short of his competitors, particularly struggling to make his mark in the penalty area. While he shows some ability to carry the ball and make runs, he doesn't consistently create danger or receive the ball effectively in critical attacking situations.
+Ball runs (xT): 0.08 | 29 of 72
+Box entries from carries: 0.38 | 60 of 72
+Carries (xT): 0.13 | 35 of 72
+Through ball receptions (xT): 0.0 | 46 of 72
+Box receptions: 1.13 | 68 of 72
+Zone map prose: "Strong attacking presence with effective right wing runs" — solid ability on the attacking right wing, effectively carrying the ball into dangerous positions.
+
+--- Dribbling — Quality rank 18 of 72 ---
+Headline: Reliable on right wing but inconsistent chance creation
+Prose: Pontus Dahbo stands out as a skilled dribbler who effectively resists pressure, making him a tough challenge for defenders. While he excels at maintaining possession and successfully beating his markers, he does not consistently create high-quality chances from his dribbles, but he remains a dependable attacking option.
+Dribble success %: 0.89 | 14 of 72
+Dribbles (xT): 0.09 | 26 of 72
+Pressure resistance %: 0.87 | 3 of 72
+xGDribble: 0.06 | 36 of 72
+Zone map prose: "Outstanding right-wing attacker creates threats and beats defenders" — standout on the attacking right wing, consistently taking on defenders.
+
+--- Effectiveness — Quality rank 27 of 72 ---
+Headline: Defensively reliable but underwhelming as an offensive winger
+Prose: Pontus Dahbo is a solid contributor defensively, excelling in winning possessions back and limiting his turnovers when receiving the ball. However, he struggles to create clear goal-scoring opportunities, as evidenced by his low output in expected goals and assists per touch. Overall, while he brings stability to the wing and contributes defensively, he lacks the offensive threat typical of more effective wingers.
+Carries (xT) per 100 receptions: 0.36 | 42 of 72
+Low turnovers per low reception: 0.0 | 1 of 72
+Passes (xT) per 100 receptions: 1.09 | 23 of 72
+Recoveries per opponent possession: 0.04 | 2 of 72
+xGChain per possession: 0.02 | 54 of 72
+np xG per shot: 0.07 | 64 of 72
+np xG + xA per 100 touches: 0.32 | 70 of 72
+
+--- Providing Teammates — Quality rank 72 of 72 ---
+Headline: Inconsistent winger lacking impact outside the right flank
+Prose: Dahbo struggles significantly to create goal-scoring opportunities for his teammates. His overall numbers highlight a lack of impact in the final third, making him a less effective option among wingers in terms of providing for others.
+Assists: 0.0 | 51 of 72
+Deep completions: 0.0 | 70 of 72
+Key passes: 0.0 | 72 of 72
+Second assists: 0.0 | 30 of 72
+xA: 0.0 | 72 of 72
+xGCreated: 0.22 | 30 of 72
+Zone map prose: "Skilled chance creator on right wing needs to diversify game" — remarkable ability creating chances from the attacking right wing; struggled in the opposition penalty area and was below average in both half-spaces and central areas.
+
+--- Box Threat — Quality rank 66 of 72 ---
+Headline: Lacks goal threat and struggles to impact in the box
+Prose: Pontus Dahbo struggles to pose a significant threat in the box, showing deficiencies across several key metrics, including expected goals and box entries. His limited involvement in the penalty area and lack of goal-scoring impact make him a less effective option compared to his peers.
+Box entries from carries: 0.38 | 60 of 72
+np Goals: 0.0 | 56 of 72
+Box receptions: 1.13 | 68 of 72
+Touches in box: 1.51 | 67 of 72
+np xG: 0.15 | 54 of 72
+Zone map: "Limited data hinders analysis of player's scoring potential" — insufficient data on xG across zones.
+
+--- Finishing — Quality rank 55 of 72 ---
+Headline: Misses scoring chances regularly, needs improved shooting accuracy
+Prose: Pontus Dahbo struggles to convert scoring opportunities, with a low shot conversion rate and fewer goals than expected for a winger. His finishing is a concern, as he fails to regularly find the back of the net or produce consistent chances on target.
+np Goals - np xG: -0.4 | 37 of 72
+np Goals: 0.0 | 56 of 72
+np Shot conversion %: 0.0 | 56 of 72
+xGOT: 0.0 | 70 of 72
+Zone map: "Insufficient data limits effective shot zone analysis".
+
+--- Glossary (verbatim) ---
+Aerials: Number of aerial duels.
+Assists: Number of assists adjusted by possession.
+Ball runs (xT): Accumulated location-based xT from progressive runs and high speed runs with the ball adjusted by possession.
+Box entries from carries: Number of ball carries into the penalty area adjusted by possession.
+Box receptions: Number of successful pass receptions inside the opponent's penalty area divided by the team's possession percentage and multiplied by 0.5.
+Carries (xT): Accumulated action-based xT from ball carries adjusted by possession.
+Carries (xT) per 100 receptions: Accumulated expected threat from carries compared to the number of receptions and multiplied by 100.
+Chance creating passes: Number of assists, key passes, shot assists, and second assists adjusted by possession.
+Counterpressing actions: Number of defensive actions within 5 seconds after a turnover adjusted by the opponent's possession.
+Crosses (xT): Accumulated action-based xT of successful crosses adjusted by possession.
+Deep completions: Number of successful non-cross passes into the area within 20 meters of the opponent's goal adjusted by possession.
+Defensive actions won: Number of successful defensive actions (defensive duels, sliding tackles, interceptions, recoveries, clearances) adjusted by the opponent's possession.
+Defensive intensity: Number of defensive duels, loose ball duels, interceptions, sliding tackles and fouls when out of possession adjusted by the opponent's possession.
+Dribble success %: The ratio between successful dribbles and total dribbles.
+Dribbles (xT): Accumulated location-based xT from successful dribbles adjusted by possession.
+High recoveries: Number of recoveries in the attacking half adjusted by the opponent's possession.
+Interceptions: Number of interceptions adjusted by the opponent's possession.
+Key passes: Number of passes that immediately create a clear goal-scoring opportunity for a teammate adjusted by possession.
+Low turnovers per low reception: Number of turnovers in own 40% of the pitch adjusted by possession compared to total number of ball receptions in own 40% of the pitch.
+Passes (xT): Accumulated action-based xT from non set-piece passes adjusted by possession.
+Passes (xT) per 100 receptions: Accumulated expected threat from non set-piece passes compared to the number of shots and multiplied by 100. [sic — "shots"]
+Passes in final third (xT): Accumulated action-based xT from successful open play passes inside of the final third.
+Passes into final third (xT): Accumulated action-based xT from successful non set-piece passes into the final third.
+Pressure resistance %: Percentage of successful actions under pressure in the first or second thirds of the pitch.
+Recoveries per opponent possession: Number of recovered possessions divided by total number of opponent possessions.
+Second assists: Number of last actions of a player from a goalscoring team prior to an assist by a teammate adjusted by possession.
+Through ball receptions (xT): Accumulated action-based xT from through ball receptions adjusted by possession.
+Touches: Number of open play touches when in possession (passes, shots, carries, dribbles, touches) adjusted by possession.
+Touches in box: Number of non set-piece touches in opponent penalty area when in possession (passes, shots, carries, dribbles, touches) adjusted by possession.
+np Goals: Number of non-penalty goals adjusted by possession.
+np Goals - np xG: The difference between non-penalty goals scored and non-penalty expected goals.
+np Shot conversion %: Percentage of non-penalty shots that are goals.
+np xG: Accumulated non-penalty expected goals adjusted by possession.
+np xG + xA per 100 touches: The sum of accumulated non-penalty xG and xA divided by the number of touches and multiplied by 100.
+np xG per shot: Accumulated non-penalty xG compared to the number of shots.
+xA: Accumulated expected assists adjusted by possession.
+xGBuildup: Accumulated non-penalty xG for possessions in which a player is involved in at least one event, excluding shots and shot assists adjusted by possession.
+xGChain per possession: Accumulated non-penalty xG for possessions in which a player is involved in at least one event divided by total number of possession involvements.
+xGCreated: Accumulated xG of shots within 5s of passes in the same possession assigned to the passer adjusted by possession.
+xGDribble: Accumulated xG of shots within 5s of dribbles in the same possession assigned to the dribbler adjusted by possession.
+xGOT: Accumulated non-penalty expected goals on target adjusted by possession.
+
+Footer: "This report was generated by [Twelve Earpiece]" · Generate PDF · Share

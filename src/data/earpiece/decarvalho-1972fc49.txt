@@ -1,0 +1,160 @@
+SOURCE: https://earpiece.twelve.football/reports/1972fc49-e69a-445d-a508-4b72b2fb3af3
+CAPTURED: 3 Sep 2026, via the user's logged-in Chrome session (page text, verbatim)
+REPORT TYPE: Twelve Earpiece — Scouting Report
+=====================================================================
+
+Filipe de Carvalho
+Winger
+Dutch Eerste Divisie 2026/2027
+Scouting Report
+
+--- Overview / Info ---
+Club: Vitesse
+Nationalities: Portugal, Switzerland
+Birth date: 2003-12-01
+Strong foot: Right   [NB: Transfermarkt lists him as a Left Winger; foot per Twelve = right]
+Agencies: THE BEST OF YOU SPORTS S.A.
+Estimated value: €900,000   [vendor model estimate — never quote as fact]
+
+Dutch Eerste Divisie 26/27
+Minutes played: 215
+Matches: 4
+From start: 3
+Goals: 1
+Assists: 2
+Yellow cards: 0
+Red cards: 0
+
+Headline: 22-Year-Old Winger at Vitesse: Effective Pressing and Box Threat with Growing Involvement
+
+Filipe de Carvalho is a 22-year-old winger playing for Vitesse and hails from Portugal and Switzerland. He has an estimated transfer value of €900,000 and is represented by THE BEST OF YOU SPORTS S.A. In the current season of the Eerste Divisie (2026/2027), he has played 215 minutes in 4 matches, starting 3, with 1 goal and 2 assists to his name. His strengths include effectiveness, pressing, and box threat, while his weaknesses are involvement, run quality, and passing quality.
+
+--- Positions played (share of minutes by position) ---
+MAIN: Winger — 195 mins
+ALL POSITIONS: 216 mins
+Right winger: 130 mins (60%)
+Left winger: 65 mins (30%)
+Central midfielder: 20 mins (9%)
+
+--- Strengths (quality rank of 21 wingers) ---
+Effectiveness 1/21
+Pressing 4/21
+Box Threat 7/21
+
+--- Weaknesses ---
+Involvement 13/21
+Run Quality 14/21
+Passing Quality 16/21
+
+--- Table of content (section headlines) ---
+Summary • Consistent right winger with balanced skills and good contributions
+Involvement • Playmaker proves crucial in central and right attacking zones
+Pressing • High-intensity counterpresser with room for improvement in interceptions
+Passing Quality • Effective crosser but lacks passing precision
+Run Quality • Formidable in the penalty area but limited elsewhere on pitch
+Dribbling • Steady dribbler lacking impact yet manages good possession
+Effectiveness • Exceptional at creating and converting scoring opportunities
+Providing Teammates • Impressive assist provider but needs more diverse creative edge
+Box Threat • Reliable passer but struggles to carry into the box
+Finishing • Decent finishing hindered by low-quality chance creation
+
+--- Summary ---
+Consistent right winger with balanced skills and good contributions / Reliable wide player with balanced skills and pressing strength
+
+Filipe de Carvalho is a well-rounded right winger playing in the Eerste Divisie, known for his consistent presence on the pitch. He boasts solid finishing skills and performs well in assists, demonstrating his capability to contribute to his teammates effectively. While he shows strength in box receptions, he does not stand out in terms of box threat or finishing metrics, which keeps him at an average level in those areas. His effectiveness is impressive, particularly in terms of xgchain per possession, indicating that he significantly contributes to goal-scoring opportunities. Although below average in run quality, he compensates with good pressing abilities, highlighted by his counterpressing actions and defensive intensity. Overall, de Carvalho is a reliable winger with a balanced skill set that makes him a valuable asset to his team, even if he lacks standout attributes in some attacking facets.
+
+--- Overall performance radar (Dutch Eerste Divisie 2026/2027 | 215 minutes | compared to other Wingers | 03 Sep 2026) ---
+Axes: Involvement, Pressing, Passing Quality, Run Quality, Dribbling, Effectiveness, Providing Teammates, Box Threat, Finishing
+(The PDF print of this same page, read by pixel earlier today, gave: Effectiveness ~95, Pressing ~81, Providing Teammates ~67, Box Threat ~67, Finishing ~57, Involvement ~38, Dribbling ~38, Run Quality ~33, Passing Quality ~24 — percentile-type, ±1.)
+
+--- Involvement — Quality rank 13 of 21 ---
+Headline: Playmaker proves crucial in central and right attacking zones / Build-up expert but lacks defensive contribution
+Prose: Filipe de Carvalho shines in build-up play, showcasing his ability to create chances for his teammates. However, he struggles to get involved in terms of touches on the ball and his defensive contribution is also standard at best.
+Aerials: 1.25 | 12 of 21
+Defensive actions won: 3.3 | 12 of 21
+Touches: 26.22 | 19 of 21
+xGBuildup: 0.65 | 2 of 21
+Zone map prose: "Exceptional in central attack, impressive on right offensive flank" — outstanding in the attacking central midfield; excelled on the attacking right wing; good on the defensive right wing; below-average involvement on the left side.
+
+--- Pressing — Quality rank 4 of 21 ---
+Headline: High-intensity counterpresser with room for improvement in interceptions / Relentless presser but struggles with interceptions
+Prose: Filipe de Carvalho is an aggressive and relentless presence in the press, demonstrating exceptional intensity and effectiveness in counterpressing situations. However, his ability to make interceptions and recover the ball high up is noticeably lacking, which could limit his overall contributions to the team's defensive efforts.
+Counterpressing actions: 1.65 | 1 of 21
+Defensive intensity: 5.77 | 3 of 21
+High recoveries: 0.0 | 15 of 21
+Interceptions: 1.65 | 16 of 21
+Zone map: "Insufficient data prevents thorough defensive assessment".
+
+--- Passing Quality — Quality rank 16 of 21 ---
+Headline: Effective crosser but lacks passing precision / Exceptional crosser but struggles with final third passing
+Prose: De Carvalho shows solid ability, particularly in his crossing, which stands out among his peers in the winger position. However, his overall passing quality is not as strong, as he struggles to create significant chances or threats with his passing both into and within the final third.
+Chance creating passes: 1.27 | 17 of 21
+Crosses (xT): 0.09 | 8 of 21
+Passes into final third (xT): 0.02 | 18 of 21
+Passes in final third (xT): 0.19 | 13 of 21
+Passes (xT): 0.24 | 17 of 21
+Zone map prose: "Dangerous creator on the right, less impactful defending" — stands out in the attacking right wing; contributions diminish in wider defensive areas and within the opposition penalty area.
+
+--- Run Quality — Quality rank 14 of 21 ---
+Headline: Formidable in the penalty area but limited elsewhere on pitch / Penalty area threat but lacks effective runs elsewhere
+Prose: Filipe de Carvalho excels at receiving the ball in the penalty area, making him a potential goal-scoring threat. However, he struggles with making effective runs and creating danger from other areas of the pitch, which limits his overall impact as a winger.
+Ball runs (xT): 0.02 | 20 of 21
+Box entries from carries: 0.42 | 15 of 21
+Carries (xT): 0.07 | 19 of 21
+Through ball receptions (xT): 0.0 | 10 of 21
+Box receptions: 3.38 | 2 of 21
+Zone map: "Incomplete information limits assessment of player's ball-carrying skills".
+
+--- Dribbling — Quality rank 13 of 21 ---
+Headline: Steady dribbler lacking impact yet manages good possession / Solid dribbler but lacks creativity in final third
+Prose: Filipe de Carvalho is a steady dribbler who consistently manages to beat defenders with a reasonable success rate. However, while he maintains possession well, he tends to lack the impact of creating significant chances from his dribbles.
+Dribble success %: 1.0 | 1 of 21
+Dribbles (xT): 0.04 | 14 of 21
+Pressure resistance %: 0.8 | 8 of 21
+xGDribble: 0.0 | 17 of 21
+Zone map: "Insufficient data prevents proper evaluation of dribbling skills".
+
+--- Effectiveness — Quality rank 1 of 21 ---
+Headline: Exceptional at creating and converting scoring opportunities
+Prose: Filipe de Carvalho's playmaking ability shines through, as he consistently contributes to goal-scoring opportunities and creates chain plays that lead to threats. He also demonstrates an impressive conversion rate when given scoring chances, though he remains slightly less impactful in winning the ball back and in other aspects of build-up play. Overall, he is a highly effective winger with a well-rounded skill set.
+Carries (xT) per 100 receptions: 0.33 | 15 of 21
+Low turnovers per low reception: 0.0 | 1 of 21
+Passes (xT) per 100 receptions: 1.08 | 11 of 21
+Recoveries per opponent possession: 0.01 | 15 of 21
+xGChain per possession: 0.05 | 1 of 21
+np xG per shot: 0.22 | 4 of 21
+np xG + xA per 100 touches: 2.41 | 5 of 21
+
+--- Providing Teammates — Quality rank 7 of 21 ---
+Headline: Impressive assist provider but needs more diverse creative edge / Impressive assist ability but needs more overall creative impact
+Prose: Filipe de Carvalho shines as an assist provider, demonstrating a knack for delivering the final ball to his teammates. However, while he excels in assists, his overall creative contributions are limited, particularly in deep completions and second assists, highlighting areas where he can still improve.
+Assists: 0.85 | 2 of 21
+Deep completions: 0.42 | 19 of 21
+Key passes: 1.27 | 9 of 21
+Second assists: 0.0 | 8 of 21
+xA: 0.27 | 6 of 21
+xGCreated: 0.36 | 8 of 21
+Zone map prose: "Proficient at creating chances from the right wing" — excellent xGCreated from the attacking right wing and inside the opposition penalty area; average in central midfield, below-average from the half-spaces and left wing.
+
+--- Box Threat — Quality rank 7 of 21 ---
+Headline: Reliable passer but struggles to carry into the box / Solid option hindered by limited ball-carrying ability
+Prose: Filipe de Carvalho is a solid winger who excels in receiving passes within the penalty area, making him a valuable option in attacking situations. While he is good in expected goals and shows average performance in most other box threat metrics, he does struggle with carrying the ball into the box, slightly limiting his overall threat level.
+Box entries from carries: 0.42 | 15 of 21
+np Goals: 0.42 | 6 of 21
+Box receptions: 3.38 | 2 of 21
+Touches in box: 2.96 | 12 of 21
+np xG: 0.36 | 4 of 21
+Zone map: "Limited data makes performance analysis challenging".
+
+--- Finishing — Quality rank 9 of 21 ---
+Headline: Decent finishing hindered by low-quality chance creation / Adequate finisher lacks chance creation skills
+Prose: Filipe de Carvalho displays decent finishing ability, particularly in terms of converting his shots at a reasonable rate. However, he tends to struggle in generating high-quality chances, impacting his overall goal-scoring effectiveness.
+np Goals - np xG: 0.14 | 10 of 21
+np Goals: 0.42 | 6 of 21
+np Shot conversion %: 0.25 | 4 of 21
+xGOT: 0.07 | 16 of 21
+Zone map: "Limited data restricts evaluation of finishing ability".
+
+--- Glossary --- identical to the Dahbo report's glossary (see dahbo-93c8e9cb.txt).
+
+Footer: "This report was generated by [Twelve Earpiece]" · Generate PDF · Share

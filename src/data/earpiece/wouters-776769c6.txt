@@ -1,0 +1,184 @@
+SOURCE: https://earpiece.twelve.football/reports/776769c6-9315-4940-9d6b-b3ddddf9a09a
+CAPTURED: 3 Sep 2026, via the user's logged-in Chrome session (page text, verbatim, after full lazy-load)
+REPORT TYPE: Twelve Earpiece — Scouting Report
+=====================================================================
+
+Luuk Wouters
+Central Defender
+Dutch Eerste Divisie 2025/2026
+Scouting Report
+
+--- Overview / Info ---
+Club: RKC Waalwijk   [NB: signed by Vitesse on 31 Aug 2026, free, contract to 30 Jun 2028 — Transfermarkt]
+Nationalities: Netherlands
+Birth date: 1999-06-08
+Strong foot: Left
+Agencies: Vision4Soccer
+Estimated value: €300,000   [vendor model estimate — never quote as fact]
+
+Dutch Eerste Divisie 25/26
+Minutes played: 2929
+Matches: 33
+From start: 32
+Goals: 0
+Assists: 0
+Yellow cards: 2
+Red cards: 0
+
+Headline: 27-Year-Old Central Defender from RKC Waalwijk: Strong in Defensive Heading and Aerial Threat
+
+Luuk Wouters is a 27-year-old central defender from the Netherlands, currently playing for RKC Waalwijk. His estimated transfer value is €300,000 and he is represented by Vision4Soccer. In the ongoing 2025/2026 Eerste Divisie season, he has played 2929 minutes across 33 matches, starting 32 of them. His strengths include defensive heading, aerial threat, and involvement, while his weaknesses are in progression, territorial dominance, and composure.
+
+--- Positions played (share of minutes by position) ---
+MAIN: Central defender — 2,534 mins (86%)
+ALL POSITIONS: 2,930 mins
+Left back: 327 mins (11%)
+Other (1): 69 mins
+
+--- Strengths (quality rank of 90 central defenders) ---
+Defensive Heading 10/90
+Aerial Threat 11/90
+Involvement 21/90
+
+--- Weaknesses ---
+Progression 55/90
+Territorial Dominance 60/90
+Composure 67/90
+
+--- Table of content (section headlines) ---
+Summary • Strong aerial defender but struggles with composure under pressure
+Involvement • Dominated games with left-side contributions and buildup play
+Active Defence • Strong left-side defender with gaps on the right
+Intelligent Defence • Inconsistent performances limit defensive effectiveness across the field
+Territorial Dominance • Struggles to prevent opponent's passes into his defensive zone
+Chance Prevention • Good at restricting chances but needs to block passes
+Defensive Heading • Formidable aerial presence with notable defensive half-space dominance
+Aerial Threat • Strong defensive aerial presence
+Composure • Inconsistent composure affects defensive retention under pressure
+Progression • Strong creative impact from the left despite wider struggles
+
+--- Summary ---
+Strong aerial defender but struggles with composure under pressure
+
+Luuk Wouters has established himself as an impactful central defender in the Eerste Divisie, particularly known for his aerial abilities. He is excellent in both aerial threat and defensive heading, boasting a high win percentage in aerial duels. Wouters demonstrates a good level of involvement in build-up play and is effective in active defence, winning tackles and successfully defending in one-on-one situations. However, he struggles with composure under pressure, evidenced by his low pressure resistance %. Additionally, his progression metrics are average, indicating he does not excel in moving the ball forward. Overall, while Wouters is a strong aerial presence and active defender, his inconsistency in composure and progression may limit his effectiveness in high-pressure situations.
+
+--- Overall performance radar (Dutch Eerste Divisie 2025/2026 | 2929 minutes | compared to other Central Defenders | 03 Sep 2026) ---
+Axes: Involvement, Active Defence, Intelligent Defence, Territorial Dominance, Chance Prevention, Defensive Heading, Aerial Threat, Composure, Progression
+Quality ranks (of 90): Involvement 21 · Active Defence 22 · Intelligent Defence 47 · Territorial Dominance 60 · Chance Prevention 23 · Defensive Heading 10 · Aerial Threat 11 · Composure 67 · Progression 55
+Validation: the pixel-read percentiles from the printed Team Fit PDF (3 Sep) were Def Heading ~89, Aerial Threat ~88, Involvement ~77, Active Defence ~76, Chance Prevention ~74–75, Intelligent Defence ~48, Progression ~39, Territorial Dominance ~33, Composure ~26 — consistent with percentile ≈ (90 − rank)/90 × 100 on every axis.
+
+--- Involvement — Quality rank 21 of 90 ---
+Headline: Dominated games with left-side contributions and buildup play / Versatile player excelling in buildup and defensive actions
+Prose: Luuk Wouters is a solid contributor in both defense and attack, particularly excelling in expected goals buildup and winning defensive actions, making his presence felt throughout matches. However, he does fall short in aerial duels, indicating a potential area for improvement in his overall defensive game.
+Aerials: 2.98 | 63 of 90
+Defensive actions won: 10.34 | 27 of 90
+Touches: 58.02 | 32 of 90
+xGBuildup: 0.54 | 12 of 90
+Zone map prose: "Strong left-side influence struggles centrally" — outstanding in both the defensive and attacking left half-spaces; excellent on the left wing; struggled in the opposition penalty area and across central and right-sided areas.
+
+--- Active Defence — Quality rank 22 of 90 ---
+Headline: Strong left-side defender with gaps on the right / Solid defensive contributions boost team backline reliability
+Prose: Luuk Wouters showcases strong active defence, excelling in both tackle and one vs. one situations. His reliable performance in defensive actions helps reinforce his team's backline effectively.
+Defending 1v1s won %: 0.78 | 7 of 90
+Defensive actions won: 10.34 | 27 of 90
+Recoveries: 5.37 | 50 of 90
+Tackles won %: 0.75 | 5 of 90
+Zone map prose: "Defensively strong on left side, struggles on the right" — strong in the left half-space; excellent on the attacking left wing; average across central areas; lacking on the right side.
+
+--- Intelligent Defence — Quality rank 47 of 90 ---
+Headline: Inconsistent performances limit defensive effectiveness across the field / Reliable in defense but with no standout qualities
+Prose: Wouters displays a typical level of performance in intelligent defense, without any significant standout abilities. While he demonstrates a reliable understanding of positioning and ball recovery, he doesn't particularly excel in any area.
+Loose ball recoveries: 3.44 | 48 of 90
+Counterpressing actions: 0.83 | 44 of 90
+Interceptions: 4.57 | 44 of 90
+Zone map prose: "Excels in winning possession but struggles with consistency" — excelled winning back possession on the attacking left wing; well in the defensive left half-space; inconsistent in the defensive right half-space and central midfield.
+
+--- Territorial Dominance — Quality rank 60 of 90 ---
+Headline: Struggles to prevent opponent's passes into his defensive zone
+Prose: Wouters has shown an average performance in terms of territorial dominance among central defenders, managing a decent defensive area and maintaining a standard defensive action height. However, his inability to prevent successful passes into his territory has hindered his overall effectiveness in controlling his defensive responsibilities.
+Defensive area (m^2): 886.37 | 35 of 90
+Defensive action height (m): 32.01 | 55 of 90
+Opp. Pass success % into defensive area: 0.79 | 83 of 90
+Opp. xT into defensive area: 1.32 | 51 of 90
+(No zone map.)
+
+--- Chance Prevention — Quality rank 23 of 90 ---
+Headline: Good at restricting chances but needs to block passes
+Prose: Wouters has proven to be effective in limiting the quality of chances created by the opposition within his defensive zone, as evidenced by his solid metrics in expected goals allowed. However, while he shows promise in preventing threats, there's a need for improvement in disrupting progressive passes from his area.
+Opp. Progressive passes from defensive area %: 0.14 | 72 of 90
+Opp. xG after defensive action: 0.33 | 18 of 90
+Opp. xG from defensive area: 0.57 | 23 of 90
+Opp. xT from defensive area: 1.4 | 28 of 90
+(No zone map.)
+
+--- Defensive Heading — Quality rank 10 of 90 ---
+Headline: Formidable aerial presence with notable defensive half-space dominance / Formidable in the air and excels in crucial moments
+Prose: Luuk Wouters is a formidable presence in the air, showcasing outstanding proficiency in winning his aerial duels and maintaining a high success rate. While he is solid overall in defensive heading, he primarily excels in crucial moments, making him a reliable asset for his team's aerial defensive efforts.
+Aerials won: 2.06 | 39 of 90
+Aerials won %: 0.69 | 2 of 90
+Defensive aerials won: 1.9 | 27 of 90
+Defensive aerials won %: 0.7 | 6 of 90
+Zone map prose: "Strong in defensive areas but weak in penalty box aerials" — excelled in the defensive left half-space and defensive central midfield; struggled in his own penalty area and in the attacking central midfield zone.
+
+--- Aerial Threat — Quality rank 11 of 90 ---
+Headline: Strong defensive aerial presence / Dominant aerially but limited involvement in headed plays
+Prose: Luuk Wouters excels in the air, showcasing impressive success rates in both defensive and attacking aerial duels. However, while he effectively wins aerial contests, his overall involvement in headed plays is less noteworthy compared to his peers.
+Aerials won: 2.06 | 39 of 90
+Aerials won %: 0.69 | 2 of 90
+Attacking aerials won: 0.92 | 37 of 90
+Attacking aerials won %: 0.68 | 2 of 90
+Headed plays: 0.43 | 62 of 90
+Zone map prose: "Dominant in defensive air duels from the left" — exceptional in the defensive left half-space; well in the defensive left wing; diminished in attacking roles and central midfield.
+
+--- Composure — Quality rank 67 of 90 ---
+Headline: Inconsistent composure affects defensive retention under pressure / Struggles under pressure leading to possession issues
+Prose: Wouters displays a notable ability to limit ball losses, but his overall composure is lacking, especially under pressure. He struggles to maintain possession when challenged, which puts his defensive effectiveness into question.
+Low turnovers: 0.55 | 51 of 90
+Ball losses: 2.98 | 16 of 90
+Pressure resistance %: 0.7 | 79 of 90
+Under pressure retention: 1.23 | 59 of 90
+Zone map prose: "Strong under pressure central and left, weak elsewhere" — good pressure resistance in defensive central midfield and left half-space; struggled in the defensive left wing; particularly poor in the own penalty box and right half-space.
+
+--- Progression — Quality rank 55 of 90 ---
+Headline: Strong creative impact from the left despite wider struggles / Consistently reliable but lacks standout qualities in defense
+Prose: Luuk Wouters delivers an average performance in terms of ball progression among central defenders. While he shows competency across various metrics, he doesn't stand out in any specific area, functioning as a reliable yet unremarkable option in his role.
+Ball progression (xT): 0.13 | 53 of 90
+Passes into final third (xT): 0.11 | 50 of 90
+Playmaking passes: 8.34 | 40 of 90
+Zone map prose: "Thrives creatively from the left; struggles centrally and right" — strong from the attacking and defensive left half-spaces; solid from the attacking left wing; below average on the right side and in central midfield.
+
+--- Glossary (verbatim; centre-back metric set) ---
+Aerials: Number of aerial duels.
+Aerials won: Number of aerial duels won (by first contact).
+Aerials won %: Percentage of aerial duels won.
+Attacking aerials won: Number of attacking aerial duels won (by first contact) in attacking 60% of the pitch adjusted by possession.
+Attacking aerials won %: Percentage of attacking aerials won.
+Ball losses: Number of actions that end the possession of a team (passes, offensive duels, touches) adjusted by possession.
+Ball progression (xT): Action-based xT from successful progressive passes and progressive carries that end in the opponent's half adjusted by possession.
+Counterpressing actions: Number of defensive actions within 5 seconds after a turnover adjusted by the opponent's possession.
+Defending 1v1s won %: Percentage of successful attempts to prevent an opposing player in possession of the ball to dribble past the player.
+Defensive action height (m): Average height on the pitch, measured in meters, of the player's defensive actions, excluding actions following corners, crossing freekicks and penalties.
+Defensive actions won: Number of successful defensive actions (defensive duels, sliding tackles, interceptions, recoveries, clearances) adjusted by the opponent's possession.
+Defensive aerials won: Number of defensive aerial duels won (by first contact) in own 60% of the pitch adjusted by the opponent's possession.
+Defensive aerials won %: Percentage of defensive aerial duels won in own 60% of the pitch.
+Defensive area (m^2): The size of the area, measured in square meters, that a player covers defensively, excluding actions after a final-third set-piece. It is measured as the area that covers 68% of the player's defensive actions, excluding actions after a final-third set-piece, adjusted by the opponent's possession.
+Headed plays: Number of successful head passes or head shots in the attacking half adjusted by possession.
+Interceptions: Number of interceptions adjusted by the opponent's possession.
+Loose ball recoveries: Number of ball recoveries that do not happen with an active defensive action (tackles, duels, interceptions) adjusted by the opponent's possession.
+Low turnovers: Number of turnovers in own 40% of the pitch adjusted by possession.
+Opp. Pass success % into defensive area: Percentage of the opponent's non set-piece passes into the player's defensive area that are successful.
+Opp. Progressive passes from defensive area %: Percentage of the opponent's non set-piece passes originating from within the the player's defensive area that are successful, progressive and have an end location in the attacking half.
+Opp. xG after defensive action: Accumulated non-penalty xG from the opponent's shots where the player had the last defensive action before the shot, and the shot occurred within 8 seconds of the action, measured per 100 opponent possessions that entered the player's defensive area.
+Opp. xG from defensive area: Accumulated non-penalty xG from the opponent's shots that were a part of possessions that had a successful pass originating from within the player's defensive area within 6 seconds before the shot, measured per 100 opponent possessions that entered the player's defensive area.
+Opp. xT from defensive area: Accumulated action-based xT per 100 successful opponent passes originating from within the player's defensive area.
+Opp. xT into defensive area: Accumulated action-based xT per 100 successful opponent passes into the player's defensive area.
+Passes into final third (xT): Accumulated action-based xT from successful non set-piece passes into the final third.
+Playmaking passes: Number of successful non set-piece progressive passes, smart passes, through passes, and passes into the final third adjusted by possession.
+Pressure resistance %: Percentage of successful actions under pressure in the first or second thirds of the pitch.
+Recoveries: Number of recoveries adjusted by the opponent's possession.
+Tackles won %: Percentage of defensive ground duels won, excluding loose ball duels.
+Touches: Number of open play touches when in possession (passes, shots, carries, dribbles, touches) adjusted by possession.
+Under pressure retention: Number of successful actions under pressure in the first or second thirds of the pitch adjusted by possession.
+xGBuildup: Accumulated non-penalty xG for possessions in which a player is involved in at least one event, excluding shots and shot assists adjusted by possession.
+
+Footer: "This report was generated by [Twelve Earpiece]" · Generate PDF · Share

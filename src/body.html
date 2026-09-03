@@ -1,0 +1,253 @@
+<title>Vitesse by the numbers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&family=DM+Sans:wght@400;500;600&display=swap">
+<style>/*STYLES*/</style>
+
+<div class="shell">
+<aside class="rail">
+  <div class="brand">{{LOGOMARK}}<span>ClubOS</span></div>
+  <nav>
+    <div class="part"><div class="part-h">I · Last season</div>
+      <a href="#level">The season, three ways</a><a href="#seasons">Six seasons</a><a href="#style">How they play</a><a href="#corners">The edge at corners</a></div>
+    <div class="part"><div class="part-h">II · The players</div>
+      <a href="#players">Where the output comes from</a><a href="#cases">Four cases</a></div>
+    <div class="part"><div class="part-h">III · This season</div>
+      <a href="#start">The start</a><a href="#signings">The signings</a><a href="#profile">The shape of the signing</a><a href="#scouting">Three scouting reports</a><a href="#contracts">The contract calendar</a><a href="#method">Method and sources</a></div>
+  </nav>
+  <div class="foot">Vitesse Arnhem · Eerste Divisie<br>Prepared September 2026</div>
+</aside>
+
+<main class="main">
+
+<header class="mast">
+  <div>
+    <div class="eyebrow">Vitesse Arnhem · 2025/26 and the start of 2026/27</div>
+    <h1>Vitesse by the numbers</h1>
+    <p class="lede">What last season was, where the goals came from, what the summer changed, and the one edge that survives testing. Every claim below was checked against a second source.</p>
+  </div>
+  <img class="crest" src="{{CREST}}" alt="Vitesse crest">
+</header>
+
+<div class="tiles" style="margin-top:28px">
+  <div class="tile"><b>15<i>th</i></b><span>Published table, after the 12-point deduction</span></div>
+  <div class="tile vit"><b>7<i>th</i></b><span>On the pitch: 56 points, 15 wins, +9 goal difference</span></div>
+  <div class="tile"><b>10<i>th</i></b><span>Underlying performance: xG difference rank, on both models</span></div>
+</div>
+
+<!-- ======================= PART I ======================= -->
+<div class="part-head" id="part-1"><span class="n">I</span><h2>Last season — the team</h2></div>
+
+<section id="level">
+  <div class="kicker">True level</div>
+  <h3>The table understates you by eight places. The football flatters you by two or three.</h3>
+  <div class="prose">
+    <p>Everyone at the club has done the first half of this arithmetic: at 56 points Vitesse finish 7th on goal difference and displace Roda JC from the play-offs. The second half is that the underlying performance sat in the <strong>eighth-to-eleventh band</strong>, ninth of the sixteen clubs that can be promoted.</p>
+    <p>Both corrections are real, and you need both. The 56 points were close to deserved: every method puts the over-performance between one and four points, which is one result. The gap between 7th and 10th is mediocre underlying performance rather than luck.</p>
+  </div>
+  <div class="fig">
+    <div class="fig-head">
+      <div><h4>The same twenty clubs, four ways</h4><div class="sub">2025/26 Eerste Divisie. Reserve sides marked; they cannot be promoted.</div></div>
+      <div class="seg" id="seg-level"><button data-k="published" class="on">Published table</button><button data-k="pts">Earned on the pitch</button><button data-k="xpts">Expected points</button><button data-k="xgd">xG difference</button></div>
+    </div>
+    <div class="rk" id="c-level"></div>
+    <div class="fig-cap" id="cap-level"></div>
+  </div>
+  <div class="fig">
+    <div class="fig-head"><div><h4>Three methods, one answer</h4><div class="sub">Two xG models and the bookmakers agree on direction; none says luck.</div></div></div>
+    <div class="tab-wrap"><table class="tab" id="t-methods"></table></div>
+    <div class="fig-cap">Across the division the two xG models’ season totals agree within about 2%; on Vitesse specifically they disagree by 3.5 on xG difference (6.8 on xG for), because one model credits Vitesse’s direct, crossed shot diet (41% of shots from outside the box) more than the other. Quote the rank, carry the range: the gap to the play-off band is “somewhere between six and ten expected goals”, never a single figure.</div>
+  </div>
+</section>
+
+<section id="seasons">
+  <div class="kicker">Six seasons</div>
+  <h3>A recovery to average, not to strength. The collapse was defensive.</h3>
+  <div class="prose">
+    <p>Across two divisions and three points deductions, league position is a corrupted read of this club. On xG difference the story is simpler: a top-seven Eredivisie side through 2022/23, one catastrophic season in which the defence fell apart and the attack stood still, then two years climbing back to the median of a second division.</p>
+    <p>Use xG difference, not the table. Across 85 consecutive-season pairs in this division, xGD rank predicts next season’s league position (r = +0.475) better than this season’s league position does (+0.395). And 10th is neither a floor nor a fluke: of 24 clubs finishing 8th–12th on xGD, ten improved and thirteen got worse. It is not a platform.</p>
+  </div>
+  <div class="grid2" style="margin-top:22px">
+    <div class="fig chart"><div class="fig-head"><div><h4>xG difference per match, six seasons</h4><div class="sub">Rank within the division that season</div></div></div><div id="c-seasons"></div></div>
+    <div class="fig chart"><div class="fig-head"><div><h4>Finishing and prevention, per match</h4><div class="sub">Goals − xG, and xGA − goals conceded. One bad season, not four.</div></div></div><div id="c-resid"></div></div>
+  </div>
+  <div class="fig-cap" style="margin-top:14px">2023/24 was a defensive collapse: expected goals against rose from 1.32 to 2.08 per match while expected goals for barely moved. 2025/26 is the first season since with both residuals positive.</div>
+</section>
+
+<section id="style">
+  <div class="kicker">How they play</div>
+  <h3>Slower, longer, sideways less often, and a mid-block that defends by shape rather than pressure.</h3>
+  <div class="prose">
+    <p>The club’s own season report and the licensed match data describe the same team the independent model does. The Twelve report ranks Vitesse against the other nineteen on seven phases; the licensed Wyscout export gives the match-level detail behind it. The pattern is consistent: a direct, low-possession side that lets opponents have the ball outside the box and rarely inside it, shoots at the first sight of goal, and got the league’s second-worst shot quality as a result.</p>
+  </div>
+  <div class="fig">
+    <div class="fig-head"><div><h4>Seven phases, ranked against the division</h4><div class="sub">Twelve Football season report, 2025/26 · rank of 20</div></div></div>
+    <div id="c-phases"></div>
+  </div>
+  <div class="split">
+    <div class="fig"><div class="fig-head"><div><h4>Tempo and directness</h4><div class="sub">Per match, Vitesse v opponents · licensed Wyscout, 38 matches</div></div></div><div class="tab-wrap"><table class="tab" id="t-styleA"></table></div><div class="fig-cap">Bold p-values are significant at 5% across the 38 paired matches. Slower, longer, fewer passes per possession, into the final third less often.</div></div>
+    <div class="fig"><div class="fig-head"><div><h4>Crosses and the box</h4><div class="sub">Season totals, Vitesse v opponents · licensed Wyscout</div></div></div><div class="tab-wrap"><table class="tab" id="t-styleB"></table></div><div class="fig-cap">633 crosses and 237 deep completions produced exactly as many touches in the box as the opposition, and worse shots.</div></div>
+  </div>
+</section>
+
+<section id="corners">
+  <div class="kicker">The edge</div>
+  <h3>The one fixable edge is corners, and it is worth about +3.6 expected goals.</h3>
+  <div class="prose">
+    <p class="say">Set pieces are a fifth of the expected goals in this division. You are sixth of twenty at them and first at indirect free kicks — you can already coach a dead ball. You are twelfth at corners, and outside the top ten at corners in four of the last six seasons. That is the hole, and it is the part of the game a wage bill grips least.</p>
+    <p>It persists. Set-piece xG difference carries year to year at <strong>r = +0.74</strong> across 160 club-seasons (better than open-play xG difference in this division), and a club retains 77% of its set-piece spread into the following season. A finishing residual retains 33%. The mechanism is aerial: 42% of aerial duels won against the opposition’s 46%.</p>
+    <p>The size, said in bands rather than gaps: halve the distance to Willem II and Vitesse move from +2.8 to about +6.4 on xG difference. Over six seasons, clubs in the 0-to-+5 band reached the play-offs two times in eleven; clubs in the +5-to-+10 band, seven times in nine. In points, about two and a half. Say it before it is asked, then rank it third behind the recruitment decision and the contract calendar.</p>
+  </div>
+  <div class="fig">
+    <div class="fig-head">
+      <div><h4>Set pieces across the division, 2025/26</h4><div class="sub">xG difference from dead balls · penalties and throw-ins excluded</div></div>
+      <div class="seg" id="seg-sp"><button data-k="corner" class="on">Corners</button><button data-k="sp">All set pieces</button><button data-k="ifk">Indirect free kicks for</button></div>
+    </div>
+    <div class="rk" id="c-sp"></div>
+    <div class="fig-cap" id="cap-sp"></div>
+  </div>
+  <div class="split">
+    <div class="fig"><div class="fig-head"><div><h4>Six seasons of dead balls</h4><div class="sub">Rank within that season’s division</div></div></div><div class="tab-wrap"><table class="tab" id="t-spseasons"></table></div></div>
+    <div class="fig"><div class="fig-head"><div><h4>Does it persist?</h4><div class="sub">Year-to-year correlation, club-season pairs</div></div></div><div class="tab-wrap"><table class="tab" id="t-persist"></table></div><div class="fig-cap">Strip out team quality and set-piece persistence falls to +0.42. Most of it is that good clubs stay good; a real, separable part of it is not.</div></div>
+  </div>
+  <div class="fig">
+    <div class="fig-head"><div><h4>How often an xG-difference band reaches the top eight</h4><div class="sub">Eerste Divisie, six seasons, 120 team-seasons</div></div></div>
+    <div id="c-bands"></div>
+    <div class="fig-cap">The cliff is between +5 and +10, not at a single number. Nine team-seasons in the target band, so “seven in nine” is directionally right rather than precisely 78%. The route from +2.8 to +6.4 is the set-piece route on its own.</div>
+  </div>
+</section>
+
+<!-- ======================= PART II ======================= -->
+<div class="part-head" id="part-2"><span class="n">II</span><h2>Last season — the players</h2></div>
+
+<section id="players">
+  <div class="kicker">Output</div>
+  <h3>The attacking output was concentrated in two players.</h3>
+  <div class="prose">
+    <p>Every outfield player in the division with 900+ minutes, placed by the two things that predict next season’s goals: non-penalty expected goals and expected assists, per 90. Vitesse’s attack ran through Bannis and Zonneveld (15th and 18th of 355 on expected goal involvement), with Pinto and Tahaui behind them. Hover any point.</p>
+  </div>
+  <div class="fig chart">
+    <div class="fig-head"><div><h4>Chance quality and chance creation, per 90</h4><div class="sub">355 players, Eerste Divisie 2025/26 · Vitesse in blue</div></div></div>
+    <div id="c-scatter"></div>
+  </div>
+  <div class="fig">
+    <div class="fig-head"><div><h4>Vitesse, ranked on expected goal involvement per 90</h4><div class="sub">900+ minutes · rank of 355 · attackers and creators only: the metric is close to meaningless for defenders</div></div></div>
+    <div class="tab-wrap"><table class="tab" id="t-vit"></table></div>
+  </div>
+</section>
+
+<section id="cases">
+  <div class="kicker">Four cases</div>
+  <h3>What the numbers settle, and what they don’t.</h3>
+  <div class="callouts">
+    <div class="callout">
+      <h4>Zonneveld: expect fewer goals, and do not read it as decline</h4>
+      <div class="big">+3.8<i>goals above expected</i></div>
+      <p>Nine non-penalty goals from 5.17 expected, the second-largest residual in the division. A player’s finishing residual persists at r = +0.045 year to year: 96% of it evaporates. Expect materially fewer goals next season even if he plays exactly as well. One caveat: at 20 he is in the population where a residual is most likely to contain real development. His chance quality (0.32 NPxG per 90) is the real number, and it is the third best at the club.</p>
+    </div>
+    <div class="callout">
+      <h4>Bannis: the striker, and the contract</h4>
+      <div class="big">0.443<i>NPxG per 90 · 15th of 355</i></div>
+      <p>Nine non-penalty goals from 1,536 minutes last season, on the chance quality that predicts next season’s goals rather than on a residual. He has started all four matches this season and scored five, from 3.76 expected: over 1.0 NPxG per 90 on a sample too small to quote as a level and large enough to say the role is his. His contract runs to June 2027 with no club option. That is the decidable point, and the calendar below is where it sits.</p>
+    </div>
+    <div class="callout">
+      <h4>Büttner: the exception nobody would guess</h4>
+      <div class="big" id="buttner-big"></div>
+      <p>Ball progression per 90: best at the club, ahead of every midfielder, at 37, from left-back. Switches of play first among the division’s full-backs (MyGamePlan). He is a specialist, the club’s best at getting the ball forward, in a role that has already been reduced this season.</p>
+    </div>
+    <div class="callout">
+      <h4>Schikora: the constant</h4>
+      <div class="big">36<i>of 38 matches</i></div>
+      <p>3,144 minutes, all but two league matches, and the highest floor in the squad: on a third-party per-match rating (MyGamePlan) he did not have a bad game all season. A 31-year-old defensive midfielder is the squad’s most reliable outfield player, and on a contract to 2028 he is one of the two ever-presents, with Achouitar, contracted beyond the June 2027 cliff.</p>
+    </div>
+  </div>
+  <p class="note" style="margin-top:18px"><b>Not on this page by design:</b> per-player defensive ratings from third-party models. An on-ball, goal-probability score rewards carriers and cannot see positioning; on the club’s own data it swings by more than a full point between wins and losses for defenders. The team-level picture (opponents reach the final third but not the box) is the reliable one.</p>
+</section>
+
+<!-- ======================= PART III ======================= -->
+<div class="part-head" id="part-3"><span class="n">III</span><h2>This season</h2></div>
+
+<section id="start">
+  <div class="kicker">Three matches</div>
+  <h3>Seven points from twelve on an xG difference of +2.1. Results and performance have met in the middle.</h3>
+  <div class="prose">
+    <p>Four matches is a sample too small to support any performance claim; it is a reliable guide to selection. Read the last two together: the 0–3 home defeat to Almere was lost while winning the expected goals and the box entries, and the 4–1 at Den Bosch was won while losing both (out-shot 25 to 12, a penalty saved in the fifth minute). Seven points from an expected 6.7: over four matches the results match the performance, even though no single match has. Vitesse are 7th. Next: TOP Oss at home.</p>
+  </div>
+  <div class="fx" id="fixtures"></div>
+  <div class="split">
+    <div class="fig"><div class="fig-head"><div><h4>What has changed, per match</h4><div class="sub">2025/26 v the first three of 2026/27 · licensed Wyscout · the fourth match awaits the export</div></div></div><div class="tab-wrap"><table class="tab" id="t-shift"></table></div><div class="fig-cap">Five of the seven move the way this analysis would recommend. Two do not: more crosses than ever, and marginally less pressing. More crosses into a box they now win 57% of is a different proposition from crosses into one they won 42% of. That is the question, and somebody at the club has already found the same problem.</div></div>
+    <div class="fig pitch"><div class="fig-head"><div><h4>The settled eleven</h4><div class="sub">Match 4 at Den Bosch · back four for the third match running</div></div></div><div id="c-pitch"></div><div class="fig-cap">Seven have started all four: Achouitar, Zumberi, Olde Keizer, Schikora, Schwarz, Sellouf, Bannis. For a club that rebuilt its squad twice in twelve months, that is a settled team. Match 4 brought the goalkeeper back from suspension, Bonnah for Markelo, and Dahbo’s first start. Formation labels differ between providers; the back four since match 2 is the part they agree on.</div></div>
+  </div>
+</section>
+
+<section id="signings">
+  <div class="kicker">The summer</div>
+  <h3>Five arrivals: one credible prior sample, three unproven on paper, and on deadline day a centre-back.</h3>
+  <div class="prose">
+    <p>The departures took the creative spine: Tahaui’s nine assists, Hoogewerf’s eight goals, Huth’s aerial presence. What replaced them is thin on prior data: three of the four attackers arrive with under 400 minutes of senior football behind them at their previous club. The third-party ratings that accompany those minutes are indicative only, and are treated that way here. What can be said is what the sample sizes are, what each player was signed to replace, and what four matches show. The fifth arrival is different in kind: a 27-year-old centre-back with a full season behind him, on a free, signed on 31 August.</p>
+  </div>
+  <div class="cards" id="signings-grid"></div>
+  <div class="fig" style="margin-top:20px"><div class="fig-head"><div><h4>What left</h4><div class="sub">Output lost from the 2025/26 attack</div></div></div><div id="departures"></div></div>
+  <p class="note" style="margin-top:16px">The recruitment model this analysis supports, in three words: <b>chance quality, 25-to-29, length.</b> Fees in this division average about €15,500 and three-quarters of permanent signings are free, so contract length is the only lever that decides whether a signing becomes an asset or an expense: nearly free at signing, impossible afterwards. Volendam give 2.2-year deals and have banked €7.9m in fees.</p>
+</section>
+
+<section id="profile">
+  <div class="kicker">The shape of the signing</div>
+  <h3>Three findings on this page describe one profile. On deadline day, the club signed it.</h3>
+  <div class="prose">
+    <p>Put the recruitment model next to the aerial record and the contract calendar and a shape falls out: a centre-back in the 25-to-29 band, with a full season of second-division minutes behind him, on a contract long enough to be an asset. Before 31 August the three at that position were 21, 23 and 23, with one of the three in the June 2027 cliff. The squad did not contain that profile.</p>
+    <p>Luuk Wouters is that shape: 27, left-footed, 2,924 minutes for RKC Waalwijk last season (seventh most of any centre-back in the league, at the side that conceded the second-lowest expected goals in it), one of six left-footed centre-backs in the 25-to-29 band among the 67 with 900+ minutes, signed on a free, on a deal to June 2028. The club’s own vendor produced a team-fit read on him the week he arrived; its chart is used below and its machine-written prose is not, because it calls his third-strongest axis a weakness.</p>
+    <p>What one season of data cannot do is pass a persistence test, and what no page can settle is how he plays in this block. What the data settles is narrower: the profile the analysis points to is the profile the club bought, and it cost nothing but contract length.</p>
+  </div>
+  <div class="tiles" style="margin-top:22px">
+    <div class="tile"><b>25<i>to 29</i></b><span>The age band the recruitment model points to, in a division that gives 61% of its minutes to under-23s</span></div>
+    <div class="tile vit"><b>42<i>%</i></b><span>Aerial duels won last season, against the opposition’s 46%. A signing, not just a session</span></div>
+    <div class="tile"><b>2028</b><span>The length of the deal. In a division where 74% of signings are free, length is the only lever that makes one an asset</span></div>
+  </div>
+  <div class="fig"><div class="fig-head"><div><h4>Does the context transfer?</h4><div class="sub">Where the two clubs sit on the vendor’s style spectra</div></div></div><div id="c-stylefit"></div><div class="fig-cap">The defensive block he played in is near-identical to Vitesse’s; the on-ball style is not. His defending numbers travel; his numbers on the ball were produced in a build-up side and will be asked for less here. One caveat the local data adds: corners were 17.8% of the xG RKC conceded, the second-highest share in the division, and the vendor’s own zone read puts his weakest aerial zone in his own penalty area, so he does not fix the corner problem by himself. The corner count from here is the test.</div></div>
+  <p class="note" style="margin-top:16px"><b>What this section is:</b> the recruitment model applied to one player, so the next centre-back conversation starts from a specification rather than a name. Ages and contract dates are Transfermarkt’s (which gives two different heights for him, so none is quoted); minutes are the independent model’s; the fit read is Twelve’s and is attributed, not reproduced. No attacking per-90 figure is printed for a centre-back.</p>
+</section>
+
+<section id="scouting">
+  <div class="kicker">Three scouting reports</div>
+  <h3>What the club’s own scouting data says about the three, facet by facet.</h3>
+  <div class="prose">
+    <p>The club’s Twelve Earpiece account holds a scouting report on each of Wouters, Dahbo and de Carvalho. Each rates the player on nine facets against a pool of peers in his league, and each facet on three to seven underlying metrics with a value and a rank. What follows is that data, with three things added: the size of the pool and the sample, which decide what a rank can mean; what the numbers support and what they cannot; and where the report’s own machine-written text contradicts its own table. The ranks are quoted; the prose is not.</p>
+  </div>
+  <div id="sc-blocks"></div>
+</section>
+
+<section id="contracts">
+  <div class="kicker">The calendar</div>
+  <h3>The contract cliff is the cheapest thing on this list, and leverage runs out on 1 January.</h3>
+  <div class="prose">
+    <p class="say">Fourteen of the twenty-seven contracts expire in June 2027, including six of the settled eleven. Leverage over every one of them is gone on 1 January, not in June. Bucket them in September.</p>
+    <p>The head coach’s contract runs to summer 2027 too, the first continuity decision, and it resolves in the same window. A separate count on the wider registered list gives eighteen of thirty-three; the denominators differ, the argument does not: more than half the squad and most of the first eleven are out of contract in ten months.</p>
+  </div>
+  <div class="fig ct">
+    <div class="fig-head"><div><h4>Every contract at the club</h4><div class="sub">Transfermarkt dates, September 2026. Not the club’s paperwork.</div></div></div>
+    <div id="c-contracts"></div>
+    <div class="legend"><span><i style="background:var(--warm)"></i>Expires June 2027</span><span><i style="background:var(--vit)"></i>2028 or later</span><span><i style="background:var(--other)"></i>Head coach</span></div>
+  </div>
+</section>
+
+
+<section id="method">
+  <div class="kicker">Method</div>
+  <h3>Where the numbers come from, and what they cannot support.</h3>
+  <div class="src">
+    <b>Independent xG model</b><span>An XGBoost expected-goals model on Opta event data (R. Koetsier), six seasons of Eerste Divisie and Eredivisie shot data, roughly 112,000 shots and 7,000 player-seasons. Not vendor xG, and labelled as such throughout.</span>
+    <b>Licensed Wyscout</b><span>The club’s per-match team statistics for all 38 league matches of 2025/26 and the first three of 2026/27. Aggregates only; the export itself is not reproduced.</span>
+    <b>Twelve Football</b><span>The club’s own season report, 54 metrics ranked against the division, and three Earpiece scouting reports (Wouters, Dahbo, de Carvalho) captured on 3 September. Its numbers are Wyscout’s; every rank is quoted with its pool size; its narrative text is machine-generated and is not quoted; in each report it contradicts its own tables at least twice.</span>
+    <b>MyGamePlan</b><span>A third-party per-match player rating. Used for prior sample sizes, Dahbo’s 2025 season and one consistency observation; not used to rank current players.</span>
+    <b>Transfermarkt</b><span>Ages, positions, contract dates, market values, line-ups and the loan/permanent label. The best public source, not an authoritative one; no value is quoted as fact.</span>
+    <b>Bookmaker odds</b><span>Closing prices, overround stripped, for 26 of Vitesse’s 38 matches, the independent check on expected points.</span>
+    <b>The rules</b><span>Quote a rank, never defend a decimal. Quote a range on any absolute xG total. Four of twenty clubs are reserve sides and cannot be promoted, so the honest denominator for a promotion conversation is sixteen. Three matches of 2026/27 support claims about selection, not performance.</span>
+  </div>
+</section>
+
+<footer><span>Prepared by ClubOS for Vitesse Arnhem · September 2026</span><span>Figures as at 3 September 2026 · four league matches played</span></footer>
+</main>
+</div>
+<div id="tip" role="tooltip"></div>
+<script>const D=/*DATA*/;</script>
+<script>/*APP*/</script>
