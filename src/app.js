@@ -244,7 +244,7 @@ $("#sc-blocks").innerHTML = D.scouting.map(p => {
     <div class="sc-head"><div><h4>${esc(p.name)}</h4><div class="sub">${esc(p.role)}</div></div><div class="sc-meta"><span>${esc(p.sample)}</span><span>Compared with ${esc(p.poolLabel)}</span></div></div>
     <div class="split" style="margin-top:14px">
       <div class="fig chart" style="margin:0"><div class="fig-head"><div><h4>Nine facets, as ranked</h4><div class="sub">Twelve Earpiece · implied percentile from rank of ${p.pool} · the two that matter to Vitesse in blue</div></div></div>${radarSVG(p.facets, p.pool, keyIdx)}</div>
-      <div class="sc-notes"><h5>What the data supports</h5><p>${p.shows}</p><h5>What it cannot</h5><p>${p.cannot}</p><h5>Where the vendor’s text fails its own table</h5><p>${p.prose}</p></div>
+      <div class="sc-notes"><h5>What the data supports</h5><p>${p.shows}</p><h5>What it cannot</h5><p>${p.cannot}</p><h5>Where the vendor’s text fails its own table</h5><p>${p.prose}</p><h5>Fit to how Vitesse are playing now</h5><p>${p.fit}</p></div>
     </div>
     <div class="fig" style="margin-top:20px"><div class="fig-head"><div><h4>Every metric behind the facets</h4><div class="sub">Value · rank of ${p.pool}. Definitions are the vendor’s; values are per-match, possession-adjusted where the glossary says so.</div></div></div>
       <div class="tab-wrap"><table class="tab sc-tab"><thead><tr><th>Facet</th><th class="r">Rank</th><th>Metrics</th></tr></thead><tbody>${rows}</tbody></table></div></div>
