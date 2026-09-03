@@ -157,6 +157,10 @@ section .kicker{font-size:12px;letter-spacing:.1em;text-transform:uppercase;colo
 .card .pos{font-size:12.5px;color:var(--ink-3)}
 .card dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0;font-size:13.5px}
 .card dt{color:var(--ink-3)} .card dd{margin:0;color:var(--ink-2)}
+.card dt.before,.card dt.at{font-family:var(--sora);font-size:11px;letter-spacing:.08em;text-transform:uppercase;align-self:start;padding-top:3px}
+.card dt.at{color:var(--vit)}
+.pill{display:inline-block;font-family:var(--sora);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:4px 9px;border-radius:999px;margin-bottom:8px;background:var(--other-soft);color:var(--ink-2)}
+.pill.at{background:var(--vit-soft);color:var(--vit)}
 .card .read{font-size:14.5px;color:var(--ink-2);line-height:1.5;border-top:1px solid var(--rule-soft);padding-top:12px}
 .cards .card:last-child:nth-child(odd){grid-column:1/-1}
 .card .verdict{font-family:var(--sora);font-size:14px;color:var(--ink);padding-left:12px;border-left:2px solid var(--vit)}

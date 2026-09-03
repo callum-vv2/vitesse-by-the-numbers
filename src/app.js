@@ -214,7 +214,7 @@ $("#t-shift").innerHTML = `<thead><tr><th>per match</th><th class="r">2025/26</t
 
 /* signings */
 $("#signings-grid").innerHTML = D.signings.map(s => `<div class="card"><div class="top"><h4>${esc(s.name)}</h4><span class="pos">${s.age} · ${s.pos}</span></div>
-  <dl><dt>From</dt><dd>${esc(s.from)} · ${s.when}</dd><dt>Prior sample</dt><dd>${s.sample}<span class="sub" style="display:block;color:#5d5949;font-size:12px">${s.league}</span></dd><dt>So far</dt><dd>${s.sofar}</dd><dt>Contract</dt><dd>${s.contract} · Transfermarkt value ${s.value}</dd></dl>
+  <dl><dt>Joined</dt><dd>${esc(s.from)} · ${s.when}</dd><dt class="before">Before Vitesse</dt><dd>${s.sample}<span class="sub" style="display:block;color:#5d5949;font-size:12px">${s.league}</span></dd><dt class="at">At Vitesse</dt><dd>${s.sofar}<span class="sub" style="display:block;color:#5d5949;font-size:12px">Eerste Divisie 2026/27 · four matches to 28 August</span></dd><dt>Contract</dt><dd>${s.contract} · Transfermarkt value ${s.value}</dd></dl>
   <p class="read">${s.read}</p><p class="verdict">${s.verdict}</p></div>`).join("");
 $("#departures").innerHTML = D.departures.map(d => `<div class="dep"><b>${esc(d.name)} <span class="muted" style="font-weight:400;color:#5d5949">${d.pos}</span></b><span class="l">${d.lost}</span><span class="n">${d.note}</span></div>`).join("");
 
@@ -241,9 +241,9 @@ $("#sc-blocks").innerHTML = D.scouting.map(p => {
   const keyIdx = p.facets.map((f, i) => SC_KEY[p.key].includes(f.name) ? i : -1).filter(i => i >= 0);
   const rows = p.facets.map(f => `<tr><td><b>${f.name}</b><span class="sub">${f.zone ? "Zone read: " + esc(f.zone) : "No zone map"}</span></td><td class="r ${f.rank <= Math.ceil(p.pool / 4) ? "sig" : f.rank > p.pool * 0.75 ? "dn" : ""}">${ord(f.rank)} of ${p.pool}</td><td>${f.metrics.map(m => `<span class="mt"><span>${esc(m[0])}</span><b>${esc(m[1])}</b><i>${ord(m[2])}</i></span>`).join("")}</td></tr>`).join("");
   return `<div class="sc">
-    <div class="sc-head"><div><h4>${esc(p.name)}</h4><div class="sub">${esc(p.role)}</div></div><div class="sc-meta"><span>${esc(p.sample)}</span><span>Compared with ${esc(p.poolLabel)}</span></div></div>
+    <div class="sc-head"><div><span class="pill ${p.period}">${esc(p.periodLabel)}</span><h4>${esc(p.name)}</h4><div class="sub">${esc(p.role)}</div></div><div class="sc-meta"><span>${esc(p.sample)}</span><span>Compared with ${esc(p.poolLabel)}</span></div></div>
     <div class="split" style="margin-top:14px">
-      <div class="fig chart" style="margin:0"><div class="fig-head"><div><h4>Nine facets, as ranked</h4><div class="sub">Twelve Earpiece · implied percentile from rank of ${p.pool} · the two that matter to Vitesse in blue</div></div></div>${radarSVG(p.facets, p.pool, keyIdx)}</div>
+      <div class="fig chart" style="margin:0"><div class="fig-head"><div><h4>Nine facets, as ranked</h4><div class="sub">${p.period === "at" ? "Rated on his Vitesse minutes" : "Rated before he joined Vitesse"} · Twelve Earpiece · implied percentile from rank of ${p.pool} · the two that matter to Vitesse in blue</div></div></div>${radarSVG(p.facets, p.pool, keyIdx)}</div>
       <div class="sc-notes"><h5>What the data supports</h5><p>${p.shows}</p><h5>What it cannot</h5><p>${p.cannot}</p><h5>Where the vendor’s text fails its own table</h5><p>${p.prose}</p><h5>Fit to how Vitesse are playing now</h5><p>${p.fit}</p></div>
     </div>
     <div class="fig" style="margin-top:20px"><div class="fig-head"><div><h4>Every metric behind the facets</h4><div class="sub">Value · rank of ${p.pool}. Definitions are the vendor’s; values are per-match, possession-adjusted where the glossary says so.</div></div></div>
