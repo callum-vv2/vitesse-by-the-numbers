@@ -164,13 +164,6 @@ section .kicker{font-size:12px;letter-spacing:.1em;text-transform:uppercase;colo
 .dep:last-child{border-bottom:0}
 .dep b{font-weight:500;color:var(--ink)} .dep .l{color:var(--ink-2)} .dep .n{grid-column:2;color:var(--ink-3);font-size:13px}
 
-/* contracts timeline */
-.ct svg{display:block;width:100%}
-.ct text{font-family:var(--dm);font-size:11.5px;fill:var(--ink-2)}
-.ct .axis text{fill:var(--ink-3);font-size:11px}
-.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--ink-3);margin-top:10px}
-.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:6px}
-
 /* scouting blocks */
 .sc{margin-top:28px;padding-top:24px;border-top:1px solid var(--rule)} .sc:first-child{margin-top:18px;border-top:0;padding-top:0}
 .sc-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}

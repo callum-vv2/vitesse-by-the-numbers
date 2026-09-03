@@ -218,31 +218,6 @@ $("#signings-grid").innerHTML = D.signings.map(s => `<div class="card"><div clas
   <p class="read">${s.read}</p><p class="verdict">${s.verdict}</p></div>`).join("");
 $("#departures").innerHTML = D.departures.map(d => `<div class="dep"><b>${esc(d.name)} <span class="muted" style="font-weight:400;color:#5d5949">${d.pos}</span></b><span class="l">${d.lost}</span><span class="n">${d.note}</span></div>`).join("");
 
-/* contracts timeline */
-(function () {
-  const parse = s => { const [d, m, y] = s.split("/").map(Number); return new Date(y, m - 1, d); };
-  const rowsD = D.squad.filter(p => p.contract).map(p => ({ ...p, end: parse(p.contract) }))
-    .sort((a, b) => a.end - b.end || (b.starts.length - a.starts.length) || a.name.localeCompare(b.name));
-  const coach = { name: "Rüdiger Rehm · head coach", end: new Date(2027, 5, 30), coach: true, starts: [] };
-  const all = [coach, ...rowsD];
-  const t0 = new Date(2026, 8, 1), t1 = new Date(2029, 7, 1), W = 900, L = 200, R = 20, RH = 19, T = 26, H = T + all.length * RH + 10;
-  const x = d => L + (d - t0) / (t1 - t0) * (W - L - R);
-  const jan = new Date(2027, 0, 1), jun = new Date(2027, 5, 30);
-  let g = `<g class="axis">`;
-  [[2027, "2027"], [2028, "2028"], [2029, "2029"]].forEach(([yr, lb]) => { const d = new Date(yr, 0, 1); g += `<line x1="${x(d)}" x2="${x(d)}" y1="${T - 4}" y2="${H - 6}" stroke="${RULE}"/><text x="${x(d) + 4}" y="${T - 10}">${lb}</text>`; });
-  g += `</g>`;
-  all.forEach((p, i) => {
-    const yy = T + i * RH, x0 = x(t0), x1 = x(p.end);
-    const c = p.coach ? OTHER : (p.end.getFullYear() === 2027 ? WARM : VIT);
-    const starter = p.starts.length === 4;
-    g += `<text x="${L - 10}" y="${yy + 13}" text-anchor="end" ${starter ? 'font-weight="600"' : ""} ${p.coach ? 'fill="#5d5949"' : ""}>${esc(p.name)}${p.pos ? ` <tspan fill="#5d5949" font-size="10">${p.pos}</tspan>` : ""}</text>`;
-    g += `<rect x="${x0}" y="${yy + 4}" width="${x1 - x0}" height="10" fill="${c}" rx="2" opacity="1" data-tip="<b>${esc(p.name)}</b><span class='t'>${p.coach ? "Contract to summer 2027" : "Contract to " + p.contract + (p.value ? " · Transfermarkt value " + p.value : "")}</span>${p.starts && p.starts.length ? `<span class='t'>Started ${p.starts.length} of 4 this season</span>` : ""}"/>`;
-  });
-  g += `<line x1="${x(jan)}" x2="${x(jan)}" y1="${T - 4}" y2="${H - 6}" stroke="#090909" stroke-dasharray="3 3"/><text x="${x(jan) + 5}" y="${H - 10}" font-size="11" font-weight="600" fill="#090909">1 Jan · leverage ends</text>`;
-  g += `<line x1="${x(jun)}" x2="${x(jun)}" y1="${T - 4}" y2="${H - 6}" stroke="${WARM}" stroke-dasharray="3 3"/><text x="${x(jun) + 5}" y="${T + 4}" font-size="11" font-weight="600" fill="${WARM}">30 Jun 2027 · 14 expire</text>`;
-  $("#c-contracts").innerHTML = svg(W, H, g);
-})();
-
 /* scouting: radar + facet tables, one block per player */
 function radarSVG(facets, pool, keyIdx) {
   const W = 600, H = 350, cx = 300, cy = 172, R = 112, n = facets.length;
