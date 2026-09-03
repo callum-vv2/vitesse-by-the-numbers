@@ -213,9 +213,10 @@ $("#t-shift").innerHTML = `<thead><tr><th>per match</th><th class="r">2025/26</t
 })();
 
 /* signings */
+const AT_LABEL = "Eerste Divisie 2026/27 · four matches to 28 August";
+const recDL = (s, full = true) => `<dl class="rec">${full ? `<dt>Joined</dt><dd>${esc(s.from)} · ${s.when}</dd>` : ""}<dt class="before">Before Vitesse</dt><dd>${s.sample}<span class="sub">${s.league}</span></dd><dt class="at">At Vitesse</dt><dd>${s.sofar}<span class="sub">${AT_LABEL}</span></dd>${full ? `<dt>Contract</dt><dd>${s.contract} · Transfermarkt value ${s.value}</dd>` : ""}</dl>`;
 $("#signings-grid").innerHTML = D.signings.map(s => `<div class="card"><div class="top"><h4>${esc(s.name)}</h4><span class="pos">${s.age} · ${s.pos}</span></div>
-  <dl><dt>Joined</dt><dd>${esc(s.from)} · ${s.when}</dd><dt class="before">Before Vitesse</dt><dd>${s.sample}<span class="sub" style="display:block;color:#5d5949;font-size:12px">${s.league}</span></dd><dt class="at">At Vitesse</dt><dd>${s.sofar}<span class="sub" style="display:block;color:#5d5949;font-size:12px">Eerste Divisie 2026/27 · four matches to 28 August</span></dd><dt>Contract</dt><dd>${s.contract} · Transfermarkt value ${s.value}</dd></dl>
-  <p class="read">${s.read}</p><p class="verdict">${s.verdict}</p></div>`).join("");
+  ${recDL(s)}${s.read ? `<p class="read">${s.read}</p>` : ""}<p class="verdict">${s.verdict}${s.report && D.scouting.some(x => x.name === s.name) ? ` <a class="more" href="#sc-${D.scouting.find(x => x.name === s.name).key}">Scouting report</a>` : ""}</p></div>`).join("");
 $("#departures").innerHTML = D.departures.map(d => `<div class="dep"><b>${esc(d.name)} <span class="muted" style="font-weight:400;color:#5d5949">${d.pos}</span></b><span class="l">${d.lost}</span><span class="n">${d.note}</span></div>`).join("");
 
 /* scouting: radar + facet tables, one block per player */
@@ -239,23 +240,58 @@ function radarSVG(facets, pool, keyIdx) {
 const SC_KEY = { wouters: ["Defensive Heading", "Aerial Threat"], dahbo: ["Involvement", "Pressing"], decarvalho: ["Effectiveness", "Pressing"] };
 $("#sc-blocks").innerHTML = D.scouting.map(p => {
   const keyIdx = p.facets.map((f, i) => SC_KEY[p.key].includes(f.name) ? i : -1).filter(i => i >= 0);
+  const card = D.signings.find(s => s.name === p.name);
   const rows = p.facets.map(f => `<tr><td><b>${f.name}</b><span class="sub">${f.zone ? "Zone read: " + esc(f.zone) : "No zone map"}</span></td><td class="r ${f.rank <= Math.ceil(p.pool / 4) ? "sig" : f.rank > p.pool * 0.75 ? "dn" : ""}">${ord(f.rank)} of ${p.pool}</td><td>${f.metrics.map(m => `<span class="mt"><span>${esc(m[0])}</span><b>${esc(m[1])}</b><i>${ord(m[2])}</i></span>`).join("")}</td></tr>`).join("");
-  return `<div class="sc">
-    <div class="sc-head"><div><span class="pill ${p.period}">${esc(p.periodLabel)}</span><h4>${esc(p.name)}</h4><div class="sub">${esc(p.role)}</div></div><div class="sc-meta"><span>${esc(p.sample)}</span><span>Compared with ${esc(p.poolLabel)}</span></div></div>
+  return `<div class="sc" id="sc-${p.key}">
+    <div class="sc-head"><div><span class="pill ${p.period}">${esc(p.periodLabel)}</span><h4>${esc(p.name)}</h4><div class="sub">${esc(p.role)}</div></div><div class="sc-meta"><span>Rated on ${esc(p.sample)}</span><span>Compared with ${esc(p.poolLabel)}</span></div></div>
+    ${card ? `<div class="sc-rec">${recDL(card, false)}</div>` : ""}
+    ${p.intro ? `<div class="prose" style="margin-top:16px"><p>${p.intro}</p></div>` : ""}
+    <div class="sc-slot" data-slot="tiles"></div>
     <div class="split" style="margin-top:14px">
       <div class="fig chart" style="margin:0"><div class="fig-head"><div><h4>Nine facets, as ranked</h4><div class="sub">${p.period === "at" ? "Rated on his Vitesse minutes" : "Rated before he joined Vitesse"} · Twelve Earpiece · implied percentile from rank of ${p.pool} · the two that matter to Vitesse in blue</div></div></div>${radarSVG(p.facets, p.pool, keyIdx)}</div>
       <div class="sc-notes"><h5>What the data supports</h5><p>${p.shows}</p><h5>What it cannot</h5><p>${p.cannot}</p><h5>Where the vendor’s text fails its own table</h5><p>${p.prose}</p><h5>Fit to how Vitesse are playing now</h5><p>${p.fit}</p></div>
     </div>
     <div class="fig" style="margin-top:20px"><div class="fig-head"><div><h4>Every metric behind the facets</h4><div class="sub">Value · rank of ${p.pool}. Definitions are the vendor’s; values are per-match, possession-adjusted where the glossary says so.</div></div></div>
       <div class="tab-wrap"><table class="tab sc-tab"><thead><tr><th>Facet</th><th class="r">Rank</th><th>Metrics</th></tr></thead><tbody>${rows}</tbody></table></div></div>
+    <div class="sc-slot" data-slot="fit"></div>
   </div>`;
 }).join("");
+/* per-player extras authored in body.html (<template id="tpl-{key}-{slot}">) drop into their slots */
+document.querySelectorAll("#sc-blocks .sc-slot").forEach(slot => {
+  const t = $("#tpl-" + slot.closest(".sc").id.slice(3) + "-" + slot.dataset.slot);
+  if (t) slot.replaceWith(t.content.cloneNode(true)); else slot.remove();
+});
 
-/* profile: style fit */
+/* Wouters block: style fit (Twelve team-fit page) */
 $("#c-stylefit").innerHTML = D.profile.style.map(s => `<div class="sf"><div class="sf-h">${s[0]}</div>
   <div class="sf-row"><span class="sf-l">${s[1]}</span><div class="sf-track"><i class="sf-mid"></i><i class="sf-v" style="left:${s[3]}%" data-tip="<b>Vitesse</b><span class='t'>${s[0]}: ${s[3]} from ${s[1].toLowerCase()} toward ${s[2].toLowerCase()}</span>"></i><i class="sf-r" style="left:${s[4]}%" data-tip="<b>RKC Waalwijk</b><span class='t'>${s[0]}: ${s[4]} from ${s[1].toLowerCase()} toward ${s[2].toLowerCase()}</span>"></i></div><span class="sf-l r">${s[2]}</span></div></div>`).join("") +
   `<div class="legend"><span><i style="background:var(--vit);border-radius:50%"></i>Vitesse</span><span><i style="background:var(--ink)"></i>RKC Waalwijk</span></div>`;
 
+
+/* contracts timeline */
+(function () {
+  const parse = s => { const [d, m, y] = s.split("/").map(Number); return new Date(y, m - 1, d); };
+  const rowsD = D.squad.filter(p => p.contract).map(p => ({ ...p, end: parse(p.contract) }))
+    .sort((a, b) => a.end - b.end || (b.starts.length - a.starts.length) || a.name.localeCompare(b.name));
+  const coach = { name: "Rüdiger Rehm · head coach", end: new Date(2027, 5, 30), coach: true, starts: [] };
+  const all = [coach, ...rowsD];
+  const t0 = new Date(2026, 8, 1), t1 = new Date(2029, 7, 1), W = 900, L = 200, R = 20, RH = 19, T = 26, H = T + all.length * RH + 10;
+  const x = d => L + (d - t0) / (t1 - t0) * (W - L - R);
+  const jan = new Date(2027, 0, 1), jun = new Date(2027, 5, 30);
+  let g = `<g class="axis">`;
+  [[2027, "2027"], [2028, "2028"], [2029, "2029"]].forEach(([yr, lb]) => { const d = new Date(yr, 0, 1); g += `<line x1="${x(d)}" x2="${x(d)}" y1="${T - 4}" y2="${H - 6}" stroke="${RULE}"/><text x="${x(d) + 4}" y="${T - 10}">${lb}</text>`; });
+  g += `</g>`;
+  all.forEach((p, i) => {
+    const yy = T + i * RH, x0 = x(t0), x1 = x(p.end);
+    const c = p.coach ? OTHER : (p.end.getFullYear() === 2027 ? WARM : VIT);
+    const starter = p.starts.length === 4;
+    g += `<text x="${L - 10}" y="${yy + 13}" text-anchor="end" ${starter ? 'font-weight="600"' : ""} ${p.coach ? 'fill="#5d5949"' : ""}>${esc(p.name)}${p.pos ? ` <tspan fill="#5d5949" font-size="10">${p.pos}</tspan>` : ""}</text>`;
+    g += `<rect x="${x0}" y="${yy + 4}" width="${x1 - x0}" height="10" fill="${c}" rx="2" opacity="1" data-tip="<b>${esc(p.name)}</b><span class='t'>${p.coach ? "Contract to summer 2027" : "Contract to " + p.contract + (p.value ? " · Transfermarkt value " + p.value : "")}</span>${p.starts && p.starts.length ? `<span class='t'>Started ${p.starts.length} of 4 this season</span>` : ""}"/>`;
+  });
+  g += `<line x1="${x(jan)}" x2="${x(jan)}" y1="${T - 4}" y2="${H - 6}" stroke="#090909" stroke-dasharray="3 3"/><text x="${x(jan) + 5}" y="${H - 10}" font-size="11" font-weight="600" fill="#090909">1 Jan · leverage ends</text>`;
+  g += `<line x1="${x(jun)}" x2="${x(jun)}" y1="${T - 4}" y2="${H - 6}" stroke="${WARM}" stroke-dasharray="3 3"/><text x="${x(jun) + 5}" y="${T + 4}" font-size="11" font-weight="600" fill="${WARM}">30 Jun 2027 · 14 expire</text>`;
+  $("#c-contracts").innerHTML = svg(W, H, g);
+})();
 
 bindTips(document);
 addEventListener("resize", () => { updLevel($("#seg-level .on").dataset.k); updSP($("#seg-sp .on").dataset.k); });
