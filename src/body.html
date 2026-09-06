@@ -12,7 +12,7 @@
     <div class="part"><div class="part-h">II · The players</div>
       <a href="#players">Where the output comes from</a><a href="#cases">Four cases</a></div>
     <div class="part"><div class="part-h">III · This season</div>
-      <a href="#start">The start</a><a href="#summer">The summer</a><a href="#reports">Three scouting reports</a><a href="#contracts">The contract calendar</a><a href="#method">Method and sources</a></div>
+      <a href="#start">The start</a><a href="#summer">The summer</a><a href="#reports">Scouting report</a><a href="#contracts">The contract calendar</a><a href="#method">Method and sources</a></div>
   </nav>
   <div class="foot">Vitesse Arnhem · Eerste Divisie<br>Prepared September 2026</div>
 </aside>
@@ -180,7 +180,7 @@
   <h3>Four attackers, three of them on under 400 prior minutes, and on deadline day a centre-back.</h3>
   <div class="prose">
     <p>The departures took the creative spine: Tahaui’s ten assists (on the independent model), Hoogewerf’s eight goals, Huth’s aerial presence. What replaced them is thin on prior data. Three of the four attackers arrived with under 400 minutes of senior football behind them at their previous club, and the third-party ratings that accompany those minutes are indicative only. The fifth arrival is different in kind: a 27-year-old centre-back with a full season behind him, on a free, signed on 31 August.</p>
-    <p>Every card separates two records. <strong>Before Vitesse</strong> is what the player did at his previous club, with the league and season named; it is the only basis on which he could have been scouted. <strong>At Vitesse</strong> is his minutes, starts and output in the four league matches to 28 August. The two are never added together. Three of the five (Wouters, Dahbo, de Carvalho) have a Twelve Earpiece scouting report, and each is read in full in the next section.</p>
+    <p>Every card separates two records. <strong>Before Vitesse</strong> is what the player did at his previous club, with the league and season named; it is the only basis on which he could have been scouted. <strong>At Vitesse</strong> is his minutes, starts and output in the four league matches to 28 August. The two are never added together. Three of the five (Wouters, Dahbo, de Carvalho) have a Twelve Earpiece scouting report; Wouters’ is read in full in the next section.</p>
   </div>
   <div class="fig" style="margin-top:22px"><div class="fig-head"><div><h4>What left</h4><div class="sub">Output lost from the 2025/26 attack · independent xG model, MyGamePlan where named</div></div></div><div id="departures"></div></div>
   <div class="fig-head" style="margin:28px 0 0"><div><h4>What arrived</h4><div class="sub">Five signings · ages, dates and contracts from Transfermarkt · prior records from the vendor reports</div></div></div>
@@ -188,18 +188,20 @@
 </section>
 
 <section id="reports">
-  <div class="kicker">Three scouting reports</div>
-  <h3>Wouters, Dahbo and de Carvalho, facet by facet, and the fit to the side Vitesse are now.</h3>
+  <div class="kicker">Scouting report</div>
+  <h3>Wouters, facet by facet, and the fit to the side Vitesse are now.</h3>
   <div class="prose">
-    <p>Twelve Earpiece scouting reports exist for each of the three. Each rates the player on nine facets against a pool of peers in his league, and each facet on three to seven underlying metrics with a value and a rank. What follows is that data, with three things added: the size of the pool and the sample, which decide what a rank can mean; what the numbers support and what they cannot; and where the report’s own machine-written text contradicts its own table. The ranks are quoted; the prose is not.</p>
-    <p>Two of the three reports rate the player <strong>before he joined</strong>: Wouters on his 2025/26 season at RKC Waalwijk, Dahbo on his 2026 Allsvenskan minutes at Häcken. The third rates de Carvalho <strong>on his Vitesse minutes</strong>, the first four matches of 2026/27. Each block is labelled with which, carries both records from his card, and the radar caption repeats the period.</p>
+    <p>A Twelve Earpiece scouting report exists for Wouters, and it is the one read in full here. It rates him on nine facets against a pool of peers in his league, and each facet on three to seven underlying metrics with a value and a rank. What follows is that data, with three things added: the size of the pool and the sample, which decide what a rank can mean; what the numbers support and what they cannot; and where the report’s own machine-written text contradicts its own table. The ranks are quoted; the prose is not.</p>
+    <p>The report rates him <strong>before he joined</strong>, on his 2025/26 season at RKC Waalwijk. The block is labelled with that, carries both records from his card, and the radar caption repeats the period.</p>
     <p>Each fit is judged against how Vitesse are playing this season: five matches, ten points, an xG difference of +2.1 over the four the independent model covers, a back four since match 2 and the same seven starters throughout. On the licensed data for the first three matches the side keeps more of the ball (57% against 48% in 2025/26), plays fewer long passes (10% of passes against 14%), crosses more (26 a match against 17) and wins more in the air (57% of aerial duels against 42%). Three matches describe an intent; the fits below are read with that in mind.</p>
   </div>
   <div id="sc-blocks"></div>
 
   <template id="tpl-wouters-tiles">
   <div class="tiles" style="margin-top:22px">
+    <!-- HIDDEN 6 Sep 2026: the 25-to-29 age-band tile. Restore by uncommenting.
     <div class="tile"><b>25<i>to 29</i></b><span>The recruitment model’s age band, in a division that gives 61% of its minutes to under-23s. Wouters is 27</span></div>
+    -->
     <div class="tile vit"><b>42<i>%</i></b><span>Vitesse’s aerial duels won in 2025/26, against their opponents’ 46%. Wouters won 69% of his at RKC that season, 2nd of 90 centre-backs (Twelve)</span></div>
     <div class="tile"><b>2028</b><span>Wouters’ contract, per Transfermarkt. In a division where 74% of signings are free, length is the only lever that makes one an asset</span></div>
   </div>
@@ -234,7 +236,7 @@
   <div class="src">
     <b>Independent xG model</b><span>An XGBoost expected-goals model on Opta event data (R. Koetsier), six seasons of Eerste Divisie and Eredivisie shot data, roughly 112,000 shots and 7,000 player-seasons. Not vendor xG, and labelled as such throughout.</span>
     <b>Licensed Wyscout</b><span>A licensed per-match team-statistics export for Vitesse, all 38 league matches of 2025/26 and the first three of 2026/27. Aggregates only; the export itself is not reproduced.</span>
-    <b>Twelve Football</b><span>A season report on Vitesse, 54 metrics ranked against the division, three Earpiece scouting reports (Wouters, Dahbo, de Carvalho) captured on 3 September, and two single-match opposition reports generated on 6 September, one on the away match at Den Bosch and one on the home match with TOP Oss. Neither opposition report prints a match xG total: the 1.91–2.70 and 2.21–0.36 pairs on this page are summed from their own shot maps and are labelled where they appear. Its xG reproduces the licensed Wyscout export to within 0.3%, but that does not extend to every metric — its PPDA is built on a far broader count of defensive actions and runs at about half the Wyscout figure, so the two are never set against each other here. Every rank is quoted with its pool size; its narrative text is machine-generated and is not quoted; in each report it contradicts its own tables at least twice.</span>
+    <b>Twelve Football</b><span>A season report on Vitesse, 54 metrics ranked against the division, three Earpiece scouting reports (Wouters, Dahbo, de Carvalho) captured on 3 September, of which only Wouters’ is reproduced on this page, and two single-match opposition reports generated on 6 September, one on the away match at Den Bosch and one on the home match with TOP Oss. Neither opposition report prints a match xG total: the 1.91–2.70 and 2.21–0.36 pairs on this page are summed from their own shot maps and are labelled where they appear. Its xG reproduces the licensed Wyscout export to within 0.3%, but that does not extend to every metric — its PPDA is built on a far broader count of defensive actions and runs at about half the Wyscout figure, so the two are never set against each other here. Every rank is quoted with its pool size; its narrative text is machine-generated and is not quoted; in each report it contradicts its own tables at least twice.</span>
     <b>MyGamePlan</b><span>A third-party per-match player rating. Used for prior sample sizes, Dahbo’s 2025 season and one consistency observation; not used to rank current players.</span>
     <b>Transfermarkt</b><span>Ages, positions, contract dates, market values, line-ups and the loan/permanent label. The best public source, not an authoritative one; no value is quoted as fact.</span>
     <b>Bookmaker odds</b><span>Closing prices, overround stripped, for 26 of Vitesse’s 38 matches, the independent check on expected points.</span>

@@ -160,9 +160,13 @@ $("#fixtures").innerHTML = D.fixtures.map(f => `<div><div class="d">${f.date} ·
 $("#t-shift").innerHTML = `<thead><tr><th>per match</th><th class="r">2025/26</th><th class="r">2026/27</th><th></th></tr></thead><tbody>` +
   D.shift.map(r => `<tr><td>${r[0]}</td><td class="r">${r[1]}</td><td class="r vit">${r[2]}</td><td class="${r[3] > 0 ? "up" : "dn"}">${r[3] > 0 ? "as recommended" : "the other way"}</td></tr>`).join("") + "</tbody>";
 
-/* defensive posture, two single matches */
-$("#t-posture").innerHTML = `<thead><tr><th>per match · Twelve</th><th class="r">${D.posture.cols[0]}</th><th class="r">${D.posture.cols[1]}</th></tr></thead><tbody>` +
-  D.posture.rows.map(r => `<tr><td>${r[0]}<span class="sub">${r[1]}</span></td><td class="r">${r[2]}</td><td class="r">${r[3]}</td></tr>`).join("") + "</tbody>";
+/* defensive posture, two single matches — the section may be commented out in body.html,
+   so this must not run against a missing element: an unguarded assignment here throws and
+   kills every render below it (scouting blocks and the contract timeline). */
+if ($("#t-posture") && D.posture) {
+  $("#t-posture").innerHTML = `<thead><tr><th>per match · Twelve</th><th class="r">${D.posture.cols[0]}</th><th class="r">${D.posture.cols[1]}</th></tr></thead><tbody>` +
+    D.posture.rows.map(r => `<tr><td>${r[0]}<span class="sub">${r[1]}</span></td><td class="r">${r[2]}</td><td class="r">${r[3]}</td></tr>`).join("") + "</tbody>";
+}
 
 /* pitch */
 (function () {

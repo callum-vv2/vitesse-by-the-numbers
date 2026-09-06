@@ -147,7 +147,11 @@ SC_NOTES = {  # from the scouting reports written 3 Sep (vitesse-analysis/scouti
    "fit": "He fits the side Vitesse are playing as this season. Over the first three matches the crosses went up from 16.7 to 26 a match and box entries from 23 to 39, and a winger whose best row is receptions inside the penalty area (2nd of 21) is the player that pattern feeds; his goal at Den Bosch and both assists came in those four matches. The side is pressing slightly less than last season (PPDA 12.1 to 13.1), which makes his counter-pressing (1st of 21) a resource the team is not yet built around rather than a requirement. The one line to watch as the ball is kept more (57% possession) is his involvement in the build-up, where he is 19th of 21 on touches and 18th on passes into the final third, so he does not replace Tahaui’s creation from deep; Vitesse have played him on the right for 60% of his minutes and the left for 30%, and the vendor’s zone reads are consistent that he produces from the right."},
 }
 scouting = []
-for key in ["wouters", "dahbo", "decarvalho"]:
+# HIDDEN 6 Sep 2026: "dahbo" and "decarvalho" removed from this list on request.
+# Their SC_NOTES entries and earpiece source files are retained; restoring is adding
+# the two keys back here. app.js only draws a "Scouting report" link on a signing card
+# when that player is in D["scouting"], so their cards lose the link automatically.
+for key in ["wouters"]:
     n = SC_NOTES[key]; facets, pool = parse_earpiece(n["file"])
     scouting.append({"key": key, "name": n["name"], "role": n["role"], "sample": n["sample"], "pool": pool, "poolLabel": n["poolLabel"],
                      "facets": facets, "intro": n.get("intro"), "shows": n["shows"], "cannot": n["cannot"], "prose": n["prose"], "fit": n["fit"], "period": n["period"], "periodLabel": n["periodLabel"]})
