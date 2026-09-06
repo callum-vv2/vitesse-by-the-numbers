@@ -128,7 +128,7 @@ SC_NOTES = {  # from the scouting reports written 3 Sep (vitesse-analysis/scouti
    "shows": "The rates are the robust numbers, produced on roughly a hundred duels rather than counts: 69% of aerial duels won (2nd of 90), 70% of defensive aerials (6th), 75% of tackles (5th), 78% of one-against-ones (7th), and the tenth-best defensive-heading profile in the pool. Those are what a deep, direct block asks of its centre-backs, and they were produced inside the division’s second-tightest defence. On the ball the sample puts every progression measure at the median and pressure resistance below it, in a side that averaged 3.5 passes per possession and so tested both less than most.",
    "cannot": "One season, one club, so no persistence test is possible. Pressure resistance (70%, 79th of 90) rests on roughly 55 pressured actions all season; the aerial win rate on nearly twice that. Every zone read makes him a left-of-the-pair specialist with gaps on the right, and his weakest aerial zone is his own penalty area, so he does not fix the corner record by himself.",
    "prose": "The vendor’s prose fails its own table four times: “falls short in aerial duels” describes a duel count (63rd of 90) while the win rate is 2nd; “inconsistent” intelligent defence is three metrics at the median; “excels in crucial moments” has no metric behind it; and the progression headline says “strong creative impact” over three ranks between 40th and 53rd.",
-   "fit": "His numbers were produced at RKC, a build-up side: 62 on the vendor’s long-ball-to-build-up spectrum against Vitesse’s 37 last season. Over the first three matches of 2026/27 Vitesse have moved toward that model, keeping 57% of the ball against 48% last season and cutting the long-pass share from 14% to 10%, so the on-ball context he comes from now resembles the one he joins. That is the case for the fit: xGBuildup 12th of 90 and touches 32nd say he is used to being involved in a side that plays out. It also raises the stakes on his weakest axes, because a possession side tests pressure resistance (79th) and composure (67th) more often than a long-ball side does; the zone read says the risk sits in his own penalty area. What the current model asks of him is therefore narrower than what RKC did: keep winning the header where corners land, and play early and simple when pressed near his own goal. The aerial side transfers cleanly either way: Vitesse are winning 57% of aerial duels this season against 42% last, and his 69% win rate reinforces that. The left-of-the-pair slot the zone reads point to is the one beside Zumberi that Achouitar, also left-footed, has held in all four matches, so which side he plays decides how much of this transfers."},
+   "fit": "His numbers were produced at RKC, a build-up side: 62 on the vendor’s long-ball-to-build-up spectrum against Vitesse’s 37 last season. Over the first three matches of 2026/27 Vitesse have moved toward that model, keeping 57% of the ball against 48% last season and cutting the long-pass share from 14% to 10%, so the on-ball context he comes from now resembles the one he joins. That is the case for the fit: xGBuildup 12th of 90 and touches 32nd say he is used to being involved in a side that plays out. It also raises the stakes on his weakest axes, because a possession side tests pressure resistance (79th) and composure (67th) more often than a long-ball side does; the zone read says the risk sits in his own penalty area. What the current model asks of him is therefore narrower than what RKC did: keep winning the header where corners land, and play early and simple when pressed near his own goal. The aerial side transfers cleanly either way: Vitesse are winning 57% of aerial duels this season against 42% last, and his 69% win rate reinforces that. The left-of-the-pair slot the zone reads point to is the one beside Zumberi that Achouitar, also left-footed, has held in every match this season, so which side he plays decides how much of this transfers."},
  "dahbo": {
    "period": "before", "periodLabel": "Before Vitesse · BK Häcken · Allsvenskan 2026",
    "file": "dahbo-93c8e9cb.txt", "name": "Pontus Dahbo", "role": "Winger by the vendor’s frame · on loan from BK Häcken per Transfermarkt · used centrally by Vitesse",
@@ -208,18 +208,35 @@ D = {
         {"band": "0 to +5", "n": 11, "top8": 2, "here": True}, {"band": "+5 to +10", "n": 9, "top8": 7, "target": True},
         {"band": "+10 to +15", "n": 13, "top8": 11}, {"band": "above +15", "n": 26, "top8": 24},
     ],
-    # refresh/vitesse_fixtures_2026-27.csv — four matches, xG from the independent model (Koetsier) for all four
+    # refresh/vitesse_fixtures_2026-27.csv — five matches. xG on matches 1–4 is the independent model
+    # (Koetsier). There is no independent figure for match 5 yet, so the pair carried there is Twelve
+    # Football's, summed off their own shot map, and is labelled on the card. The two are never added
+    # together and match 5 is not in the cumulative xG difference, which is a Koetsier running total.
     "fixtures": [
         {"date": "7 Aug", "opp": "RKC Waalwijk", "ha": "H", "gf": 1, "ga": 1, "shape": "back three", "xg": 1.76, "xga": 2.23, "note": "Led through Bannis; goalkeeper sent off late on and finished with ten men."},
         {"date": "17 Aug", "opp": "Jong Utrecht", "ha": "A", "gf": 3, "ga": 1, "shape": "back four", "xg": 3.42, "xga": 0.65, "note": "Won on merit: 19 shots to 11."},
         {"date": "21 Aug", "opp": "Almere City", "ha": "H", "gf": 0, "ga": 3, "shape": "back four", "xg": 2.01, "xga": 1.55, "note": "Lost while winning the expected goals and the box entries, 36 to 17."},
-        {"date": "28 Aug", "opp": "FC Den Bosch", "ha": "A", "gf": 4, "ga": 1, "shape": "back four", "xg": 2.29, "xga": 2.98, "note": "Won while losing the expected goals: out-shot 25 to 12, a penalty saved in the fifth minute, two counter-attack goals."},
+        {"date": "28 Aug", "opp": "FC Den Bosch", "ha": "A", "gf": 4, "ga": 1, "shape": "back four", "xg": 2.29, "xga": 2.98, "note": "Won while losing the expected goals: out-shot 25 to 12, a penalty saved in the fifth minute, two counter-attack goals. Twelve’s shot map, summed, reaches the same verdict on its own numbers: 1.91 to Vitesse, 2.70 to Den Bosch."},
+        {"date": "4 Sep", "opp": "TOP Oss", "ha": "H", "gf": 2, "ga": 1, "shape": "back four", "xg": 2.21, "xga": 0.36, "xgsrc": "Twelve, summed from the shot map",
+         "note": "Nineteen shots to five on Twelve’s count, and the ball won back far higher up the pitch than at Den Bosch a week earlier. The independent model has not been run on this match."},
     ],
     "shift": [
         ["Aerial duels won", "42.0%", "56.8%", 1], ["Box entries", "23.4", "39.0", 1], ["Possession", "48.1%", "57.2%", 1],
         ["Long-pass share", "14.2%", "9.8%", 1], ["xG", "1.49", "2.31", 1],
         ["Crosses", "16.7", "26.0", -1], ["PPDA", "12.14", "13.12", -1],
     ],
+    # Twelve Football single-match opposition reports, both generated 6 Sep 2026: match 4 away at Den Bosch,
+    # match 5 at home to TOP Oss. Each figure is that one match. Neither report prints a season baseline.
+    "posture": {
+        "cols": ["Away · Den Bosch – Vitesse 1–4", "Home · Vitesse – TOP Oss 2–1"],
+        "rows": [
+            ["Defensive action height", "mean height of defensive actions, metres from own goal", "33.45", "42.95"],
+            ["Final-third recoveries", "share of all recoveries", "0% (0 of 34)", "28% (11 of 39)"],
+            ["Fouls in the attacking half", "share of the side’s fouls", "35%", "73%"],
+            ["PPDA", "opponent passes per defensive action; lower = presses harder", "7.57", "5.71"],
+            ["Defensive intensity", "defensive actions per minute out of possession", "5.73", "5.92"],
+        ],
+    },
     "xi4": ["van den Berg", "Bonnah", "Achouitar", "Zumberi", "Olde Keizer", "Schikora", "Schwarz", "Dahbo", "de Carvalho", "Sellouf", "Bannis"],
     # CURRENT-SQUAD.md + the MyGamePlan report pp21–24 (third-party rating, labelled)
     "signings": [

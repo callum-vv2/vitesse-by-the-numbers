@@ -18,7 +18,9 @@ python3 src/build.py      # writes index.html from src/
 - `src/app.js` — the charts (inline SVG) and interactions
 - `src/build.py` — assembles the data block from `src/data/` and inlines everything into one file
 - `src/data/analysis/` — derived CSVs from the independent xG model (season tables, players 900+ min, set pieces)
-- `src/data/refresh/` — 2026/27 squad and minutes as at 3 September 2026 (Transfermarkt + the independent model)
+- `src/data/refresh/` — 2026/27 squad and minutes as at 3 September 2026 (Transfermarkt + the independent model).
+  The fixture list also carries match 5 (TOP Oss, 4 September) with the result only: the independent model has not
+  been re-run and the Twelve figures for that match are a different model, so those columns are left blank
 - `src/data/earpiece/` — the three Twelve Earpiece scouting reports, page text captured 3 September 2026
 - `src/brand/` — logomark and crest
 - `reports/` — the three scouting reports written up in full, with radar charts
